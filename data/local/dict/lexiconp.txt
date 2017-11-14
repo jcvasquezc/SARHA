@@ -1,0 +1,96 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+mi 1.0	m i
+casa 1.0	k a s a
+tiene 1.0	t i e n e
+tres 1.0	t r e s
+cuartos 1.0	k u a r t o s
+omar 1.0	o m a r
+que 1.0	k e
+vive 1.0	b i b e
+cerca 1.0	s e r k a
+trajo 1.0	t r a j o
+miel 1.0	m i e l
+laura 1.0	l a u r a
+sube 1.0	s u b e
+al 1.0	a l
+tren 1.0	t r e n
+pasa 1.0	p a s a
+los 1.0	l o s
+libros 1.0	l i b r o s
+nuevos 1.0	n u e b o s
+no 1.0	n o
+caben 1.0	k a b e n
+en 1.0	e n
+la 1.0	l a
+mesa 1.0	m e s a
+de 1.0	d e
+oficina 1.0	o f i s i n a
+rosita 1.0	rr o s i t a
+niño 1.0	n i nh o
+pinta 1.0	p i n t a
+bien 1.0	b i e n
+dono 1.0	d o n o
+sus 1.0	s u s
+cuadros 1.0	k u a d r o s
+ayer 1.0	a y e r
+luisa 1.0	l u i s a
+rey 1.0	rr e i
+compra 1.0	k o m p r a
+el 1.0	e l
+colchon 1.0	k o l ch o n
+duro 1.0	d u r o
+tanto 1.0	t a n t o
+le 1.0	l e
+gusta 1.0	g u s t a
+las 1.0	l a s
+matematicas 1.0	m a t e m a t i k a s
+tienen 1.0	t i e n e n
+muchas 1.0	m u ch a s
+aplicaciones 1.0	a p l i k a s i o n e s
+para 1.0	p a r a
+llegar 1.0	y e g a r
+debes 1.0	d e b e s
+subir 1.0	s u b i r
+escaleras 1.0	e s k a l e r a s
+contaminacion 1.0	k o n t a m i n a s i o n
+es 1.0	e s
+un 1.0	u n
+problema 1.0	p r o b l e m a
+todos 1.0	t o d o s
+gracias 1.0	g r a s i a s
+por 1.0	p o r
+ayudarme 1.0	a y u d a r m e 
+viste 1.0	b i s t e
+noticias 1.0	n o t i s i a s
+yo 1.0	y o
+vi 1.0	b i
+ganar 1.0	g a n a r
+medalla 1.0	m e d a y a
+plata 1.0	p l a t a
+pesas 1.0	p e s a s
+ese 1.0	e s e
+muchacho 1.0	m u ch a ch o
+mucha 1.0	m u ch a
+fuerza 1.0	f u e r s a
+juan 1.0	j u a n
+se 1.0	s e
+rompio 1.0	rr o m p i o
+una 1.0	u n a
+pierna 1.0	p i e r n a
+cuando 1.0	k u a n d o
+iba 1.0	i b a
+moto 1.0	m o t o
+estoy 1.0	e s t o i
+muy 1.0	m u i
+triste 1.0	t r i s t e
+morir 1.0	m o r i r
+a 1.0	a
+amigo 1.0	a m i g o 
+preocupado 1.0	p r e o k u p a d o
+cada 1.0	k a d a
+vez 1.0	b e s
+me 1.0	m e
+mas 1.0	m a s
+dificil 1.0	d i f i s i l
+hablar 1.0	a b l a r

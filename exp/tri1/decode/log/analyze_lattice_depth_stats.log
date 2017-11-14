@@ -1,0 +1,9 @@
+# gunzip -c exp/tri1/decode/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/tri1/graph 
+# Started at Fri Nov 10 16:47:23 COT 2017
+#
+Traceback (most recent call last):
+  File "steps/diagnostic/analyze_lattice_depth_stats.py", line 71, in <module>
+    for p in [ -1 ] + phone_int2text.keys():
+TypeError: can only concatenate list (not "dict_keys") to list
+# Accounting: time=0 threads=1
+# Ended (code 1) at Fri Nov 10 16:47:23 COT 2017, elapsed time 0 seconds

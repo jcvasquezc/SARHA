@@ -1,0 +1,3 @@
+pyuic5 mainwindow.ui -o ASR_ui.py
+pyuic5 mainwindow.ui -o /home/gita/Documentos/kaldi/egs/frases_es/ASR_ui.py
+

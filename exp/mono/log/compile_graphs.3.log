@@ -1,0 +1,29 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split3/3/text|" "ark:|gzip -c >exp/mono/fsts.3.gz" 
+# Started at Mon Oct  9 19:21:26 COT 2017
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split3/3/text|' 'ark:|gzip -c >exp/mono/fsts.3.gz' 
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: replacing bien, with 2
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: replacing bien, with 2
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: replacing bien, with 2
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: replacing bien, with 2
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: replacing bien, with 2
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: replacing bien, with 2
+sym2int.pl: replacing omar, with 2
+sym2int.pl: replacing niño, with 2
+sym2int.pl: not warning for OOVs any more times
+** Replaced 840 instances of OOVs with 2
+LOG (compile-train-graphs[5.2.126~1-134cf7]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 2801 graphs, failed for 0
+# Accounting: time=16 threads=1
+# Ended (code 0) at Mon Oct  9 19:21:42 COT 2017, elapsed time 16 seconds

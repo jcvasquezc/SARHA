@@ -1,0 +1,97 @@
+!SIL sil_S
+<UNK> spn_S
+mi m_B i_E
+casa k_B a_I s_I a_E
+tiene t_B i_I e_I n_I e_E
+tres t_B r_I e_I s_E
+cuartos k_B u_I a_I r_I t_I o_I s_E
+omar o_B m_I a_I r_E
+que k_B e_E
+vive b_B i_I b_I e_E
+cerca s_B e_I r_I k_I a_E
+trajo t_B r_I a_I j_I o_E
+miel m_B i_I e_I l_E
+laura l_B a_I u_I r_I a_E
+sube s_B u_I b_I e_E
+al a_B l_E
+tren t_B r_I e_I n_E
+pasa p_B a_I s_I a_E
+los l_B o_I s_E
+libros l_B i_I b_I r_I o_I s_E
+nuevos n_B u_I e_I b_I o_I s_E
+no n_B o_E
+caben k_B a_I b_I e_I n_E
+en e_B n_E
+la l_B a_E
+mesa m_B e_I s_I a_E
+de d_B e_E
+oficina o_B f_I i_I s_I i_I n_I a_E
+rosita rr_B o_I s_I i_I t_I a_E
+niño n_B i_I nh_I o_E
+pinta p_B i_I n_I t_I a_E
+bien b_B i_I e_I n_E
+dono d_B o_I n_I o_E
+sus s_B u_I s_E
+cuadros k_B u_I a_I d_I r_I o_I s_E
+ayer a_B y_I e_I r_E
+luisa l_B u_I i_I s_I a_E
+rey rr_B e_I i_E
+compra k_B o_I m_I p_I r_I a_E
+el e_B l_E
+colchon k_B o_I l_I ch_I o_I n_E
+duro d_B u_I r_I o_E
+tanto t_B a_I n_I t_I o_E
+le l_B e_E
+gusta g_B u_I s_I t_I a_E
+las l_B a_I s_E
+matematicas m_B a_I t_I e_I m_I a_I t_I i_I k_I a_I s_E
+tienen t_B i_I e_I n_I e_I n_E
+muchas m_B u_I ch_I a_I s_E
+aplicaciones a_B p_I l_I i_I k_I a_I s_I i_I o_I n_I e_I s_E
+para p_B a_I r_I a_E
+llegar y_B e_I g_I a_I r_E
+debes d_B e_I b_I e_I s_E
+subir s_B u_I b_I i_I r_E
+escaleras e_B s_I k_I a_I l_I e_I r_I a_I s_E
+contaminacion k_B o_I n_I t_I a_I m_I i_I n_I a_I s_I i_I o_I n_E
+es e_B s_E
+un u_B n_E
+problema p_B r_I o_I b_I l_I e_I m_I a_E
+todos t_B o_I d_I o_I s_E
+gracias g_B r_I a_I s_I i_I a_I s_E
+por p_B o_I r_E
+ayudarme a_B y_I u_I d_I a_I r_I m_I e_E
+viste b_B i_I s_I t_I e_E
+noticias n_B o_I t_I i_I s_I i_I a_I s_E
+yo y_B o_E
+vi b_B i_E
+ganar g_B a_I n_I a_I r_E
+medalla m_B e_I d_I a_I y_I a_E
+plata p_B l_I a_I t_I a_E
+pesas p_B e_I s_I a_I s_E
+ese e_B s_I e_E
+muchacho m_B u_I ch_I a_I ch_I o_E
+mucha m_B u_I ch_I a_E
+fuerza f_B u_I e_I r_I s_I a_E
+juan j_B u_I a_I n_E
+se s_B e_E
+rompio rr_B o_I m_I p_I i_I o_E
+una u_B n_I a_E
+pierna p_B i_I e_I r_I n_I a_E
+cuando k_B u_I a_I n_I d_I o_E
+iba i_B b_I a_E
+moto m_B o_I t_I o_E
+estoy e_B s_I t_I o_I i_E
+muy m_B u_I i_E
+triste t_B r_I i_I s_I t_I e_E
+morir m_B o_I r_I i_I r_E
+a a_S
+amigo a_B m_I i_I g_I o_E
+preocupado p_B r_I e_I o_I k_I u_I p_I a_I d_I o_E
+cada k_B a_I d_I a_E
+vez b_B e_I s_E
+me m_B e_E
+mas m_B a_I s_E
+dificil d_B i_I f_I i_I s_I i_I l_E
+hablar a_B b_I l_I a_I r_E
+<eps> sil

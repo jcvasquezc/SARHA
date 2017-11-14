@@ -1,0 +1,43 @@
+# gunzip -c exp/mono/decode/depth_stats_tmp.*.gz | steps/diagnostic/analyze_lattice_depth_stats.py exp/mono/graph 
+# Started at Mon Oct  9 19:45:13 COT 2017
+#
+The total amount of data analyzed assuming 100 frames per second is 1.9 hours
+Overall, lattice depth (10,50,90-percentile)=(1,4,23) and mean=10.3
+Nonsilence phones as a group account for 65.9% of frames, with lattice depth (10,50,90-percentile)=(1,4,27) and mean=11.9
+Phone sil accounts for 34.1% of frames, with lattice depth (10,50,90-percentile)=(1,3,15) and mean=7.2
+Phone a_I accounts for 4.6% of frames, with lattice depth (10,50,90-percentile)=(1,2,23) and mean=10.1
+Phone s_E accounts for 4.5% of frames, with lattice depth (10,50,90-percentile)=(1,3,24) and mean=10.0
+Phone l_B accounts for 4.2% of frames, with lattice depth (10,50,90-percentile)=(2,5,18) and mean=9.5
+Phone i_I accounts for 3.8% of frames, with lattice depth (10,50,90-percentile)=(1,3,21) and mean=8.9
+Phone a_E accounts for 3.8% of frames, with lattice depth (10,50,90-percentile)=(2,6,34) and mean=15.2
+Phone k_B accounts for 3.5% of frames, with lattice depth (10,50,90-percentile)=(1,5,29) and mean=12.7
+Phone e_I accounts for 3.4% of frames, with lattice depth (10,50,90-percentile)=(1,4,37) and mean=14.7
+Phone s_I accounts for 2.6% of frames, with lattice depth (10,50,90-percentile)=(1,3,21) and mean=10.4
+Phone o_I accounts for 2.5% of frames, with lattice depth (10,50,90-percentile)=(1,2,21) and mean=9.5
+Phone u_I accounts for 2.3% of frames, with lattice depth (10,50,90-percentile)=(1,3,22) and mean=10.9
+Phone r_I accounts for 2.2% of frames, with lattice depth (10,50,90-percentile)=(1,3,19) and mean=9.4
+Phone e_E accounts for 2.2% of frames, with lattice depth (10,50,90-percentile)=(1,8,34) and mean=17.3
+Phone t_B accounts for 2.0% of frames, with lattice depth (10,50,90-percentile)=(1,3,19) and mean=9.1
+Phone n_I accounts for 1.9% of frames, with lattice depth (10,50,90-percentile)=(1,3,29) and mean=13.6
+Phone t_I accounts for 1.9% of frames, with lattice depth (10,50,90-percentile)=(1,1,11) and mean=6.1
+Phone b_I accounts for 1.7% of frames, with lattice depth (10,50,90-percentile)=(1,5,34) and mean=14.1
+Phone m_B accounts for 1.4% of frames, with lattice depth (10,50,90-percentile)=(2,7,44) and mean=19.7
+Phone n_E accounts for 1.2% of frames, with lattice depth (10,50,90-percentile)=(2,14,54) and mean=25.3
+Phone p_B accounts for 1.2% of frames, with lattice depth (10,50,90-percentile)=(2,8,30) and mean=14.8
+Phone k_I accounts for 1.1% of frames, with lattice depth (10,50,90-percentile)=(1,1,4) and mean=3.3
+Phone m_I accounts for 1.1% of frames, with lattice depth (10,50,90-percentile)=(1,2,13) and mean=6.8
+Phone ch_I accounts for 1.0% of frames, with lattice depth (10,50,90-percentile)=(2,2,14) and mean=7.1
+Phone s_B accounts for 1.0% of frames, with lattice depth (10,50,90-percentile)=(1,5,33) and mean=14.7
+Phone d_I accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,2,14) and mean=7.5
+Phone rr_B accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,2,9) and mean=4.2
+Phone o_E accounts for 0.8% of frames, with lattice depth (10,50,90-percentile)=(1,8,47) and mean=20.4
+Phone r_E accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,7,42) and mean=18.5
+Phone d_B accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(2,7,33) and mean=14.1
+Phone a_B accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,3,23) and mean=11.4
+Phone b_B accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,4,24) and mean=10.4
+Phone y_I accounts for 0.7% of frames, with lattice depth (10,50,90-percentile)=(1,2,20) and mean=12.1
+Phone l_E accounts for 0.6% of frames, with lattice depth (10,50,90-percentile)=(3,7,30) and mean=12.9
+Phone l_I accounts for 0.5% of frames, with lattice depth (10,50,90-percentile)=(1,2,10) and mean=6.9
+Phone i_E accounts for 0.5% of frames, with lattice depth (10,50,90-percentile)=(1,7,45) and mean=17.2
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Oct  9 19:45:13 COT 2017, elapsed time 0 seconds

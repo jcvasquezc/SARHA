@@ -1,0 +1,1412 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split3/3/utt2spk scp:data/test/split3/3/cmvn.scp scp:data/test/split3/3/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.3.gz" 
+# Started at Mon Oct  9 19:42:30 COT 2017
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split3/3/utt2spk scp:data/test/split3/3/cmvn.scp scp:data/test/split3/3/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.3.gz' 
+apply-cmvn --utt2spk=ark:data/test/split3/3/utt2spk scp:data/test/split3/3/cmvn.scp scp:data/test/split3/3/feats.scp ark:- 
+add-deltas ark:- ark:- 
+user00109_ses109_rep10_task11_t1_es mi casa tiene tres cuadros 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task11_t1_es is -8.18891 over 226 frames.
+user00109_ses109_rep10_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task12_t2_es is -7.91658 over 298 frames.
+user00109_ses109_rep10_task13_t3_es laura sube tanto pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task13_t3_es is -7.87254 over 256 frames.
+user00109_ses109_rep10_task14_t4_es debes ayudarme caben mas para 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task14_t4_es is -8.07591 over 358 frames.
+user00109_ses109_rep10_task15_t5_es rosita iba que pinta tiene mas cuartos los 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task15_t5_es is -8.2118 over 328 frames.
+user00109_ses109_rep10_task16_t6_es mi sube colchon colchon moto tanto nuevos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task16_t6_es is -8.35939 over 322 frames.
+user00109_ses109_rep10_task17_t7_es los matematicas tiene muchas aplicaciones que 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task17_t7_es is -8.53864 over 322 frames.
+user00109_ses109_rep10_task18_t8_es problema de subir las caben 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task18_t8_es is -8.06599 over 334 frames.
+user00109_ses109_rep10_task19_t9_es que contaminacion ganar todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task19_t9_es is -7.91802 over 280 frames.
+user00109_ses109_rep10_task20_t10_es los escaleras por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep10_task20_t10_es is -7.89246 over 238 frames.
+user00109_ses109_rep1_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task11_t1_es is -8.29564 over 358 frames.
+user00109_ses109_rep1_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task12_t2_es is -7.98792 over 394 frames.
+user00109_ses109_rep1_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task13_t3_es is -8.3157 over 280 frames.
+user00109_ses109_rep1_task14_t4_es le libros la dono caben en mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task14_t4_es is -8.19859 over 418 frames.
+user00109_ses109_rep1_task15_t5_es rosita mi niño que pinta bien pierna sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task15_t5_es is -8.69237 over 508 frames.
+user00109_ses109_rep1_task16_t6_es mi se rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task16_t6_es is -8.72425 over 430 frames.
+user00109_ses109_rep1_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task17_t7_es is -8.67679 over 370 frames.
+user00109_ses109_rep1_task18_t8_es para llegar de sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task18_t8_es is -8.20415 over 310 frames.
+user00109_ses109_rep1_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task19_t9_es is -8.41337 over 364 frames.
+user00109_ses109_rep1_task20_t10_es mucha llegar estoy ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep1_task20_t10_es is -8.02262 over 274 frames.
+user00109_ses109_rep2_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task11_t1_es is -8.6275 over 280 frames.
+user00109_ses109_rep2_task12_t2_es compra iba cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task12_t2_es is -8.15384 over 352 frames.
+user00109_ses109_rep2_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task13_t3_es is -8.47287 over 274 frames.
+user00109_ses109_rep2_task14_t4_es le libros laura caben mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task14_t4_es is -8.45958 over 394 frames.
+user00109_ses109_rep2_task15_t5_es rosita mi mesa que pinta bien mesa sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task15_t5_es is -8.64452 over 466 frames.
+user00109_ses109_rep2_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task16_t6_es is -9.04507 over 376 frames.
+user00109_ses109_rep2_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task17_t7_es is -8.50719 over 394 frames.
+user00109_ses109_rep2_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task18_t8_es is -8.29309 over 316 frames.
+user00109_ses109_rep2_task19_t9_es la contaminacion ese problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task19_t9_es is -8.56043 over 316 frames.
+user00109_ses109_rep2_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep2_task20_t10_es is -8.27727 over 226 frames.
+user00109_ses109_rep3_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task11_t1_es is -8.64529 over 262 frames.
+user00109_ses109_rep3_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task12_t2_es is -8.24295 over 280 frames.
+user00109_ses109_rep3_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task13_t3_es is -8.05269 over 304 frames.
+user00109_ses109_rep3_task14_t4_es la libros caben mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task14_t4_es is -8.74312 over 340 frames.
+user00109_ses109_rep3_task15_t5_es rosita mi no que pinta bien la las escaleras ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task15_t5_es is -8.69564 over 460 frames.
+user00109_ses109_rep3_task16_t6_es luisa de compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task16_t6_es is -8.61179 over 376 frames.
+user00109_ses109_rep3_task17_t7_es la matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task17_t7_es is -8.58762 over 352 frames.
+user00109_ses109_rep3_task18_t8_es la para llegar de subir escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task18_t8_es is -8.61609 over 292 frames.
+user00109_ses109_rep3_task19_t9_es la contaminacion problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task19_t9_es is -8.42696 over 352 frames.
+user00109_ses109_rep3_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep3_task20_t10_es is -8.40438 over 244 frames.
+user00109_ses109_rep4_task11_t1_es mi casa tienen tres cuadros la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task11_t1_es is -8.74612 over 238 frames.
+user00109_ses109_rep4_task12_t2_es que vive cerca trajo miel la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task12_t2_es is -8.95433 over 286 frames.
+user00109_ses109_rep4_task13_t3_es 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task13_t3_es is -6.78333 over 262 frames.
+user00109_ses109_rep4_task14_t4_es morir laura caben el mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task14_t4_es is -8.50954 over 346 frames.
+user00109_ses109_rep4_task15_t5_es rosita mi niño que pinta tienen sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task15_t5_es is -9.05863 over 436 frames.
+user00109_ses109_rep4_task16_t6_es luisa de compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task16_t6_es is -9.08035 over 316 frames.
+user00109_ses109_rep4_task17_t7_es la matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task17_t7_es is -8.64253 over 340 frames.
+user00109_ses109_rep4_task18_t8_es por llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task18_t8_es is -8.52713 over 298 frames.
+user00109_ses109_rep4_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task19_t9_es is -8.39327 over 322 frames.
+user00109_ses109_rep4_task20_t10_es muchas gusta ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep4_task20_t10_es is -8.2778 over 250 frames.
+user00109_ses109_rep5_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task11_t1_es is -8.74896 over 256 frames.
+user00109_ses109_rep5_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task12_t2_es is -8.34669 over 340 frames.
+user00109_ses109_rep5_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task13_t3_es is -8.34976 over 268 frames.
+user00109_ses109_rep5_task14_t4_es la libros nuevos caben mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task14_t4_es is -8.45173 over 364 frames.
+user00109_ses109_rep5_task15_t5_es rosita bien que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task15_t5_es is -9.094 over 376 frames.
+user00109_ses109_rep5_task16_t6_es luisa rey compra colchon duro que tanto gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task16_t6_es is -8.68934 over 376 frames.
+user00109_ses109_rep5_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task17_t7_es is -8.72753 over 316 frames.
+user00109_ses109_rep5_task18_t8_es para llegar de sube las escaleras sus 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task18_t8_es is -8.13452 over 466 frames.
+user00109_ses109_rep5_task19_t9_es le contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task19_t9_es is -8.43072 over 316 frames.
+user00109_ses109_rep5_task20_t10_es muchas gracias medalla en 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep5_task20_t10_es is -8.02076 over 262 frames.
+user00109_ses109_rep6_task11_t1_es mi casa tienen tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task11_t1_es is -8.19099 over 274 frames.
+user00109_ses109_rep6_task12_t2_es por vive cerca trajo libros 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task12_t2_es is -8.19907 over 268 frames.
+user00109_ses109_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task13_t3_es is -8.03193 over 262 frames.
+user00109_ses109_rep6_task14_t4_es libros nuevos caben mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task14_t4_es is -8.33307 over 310 frames.
+user00109_ses109_rep6_task15_t5_es rosita mi niño que pinta bien dono sus casa tres 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task15_t5_es is -8.56677 over 424 frames.
+user00109_ses109_rep6_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task16_t6_es is -8.50741 over 388 frames.
+user00109_ses109_rep6_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task17_t7_es is -8.32921 over 334 frames.
+user00109_ses109_rep6_task18_t8_es para llegar debes yo las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task18_t8_es is -8.18048 over 280 frames.
+user00109_ses109_rep6_task19_t9_es contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task19_t9_es is -8.36999 over 340 frames.
+user00109_ses109_rep6_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep6_task20_t10_es is -8.04308 over 268 frames.
+user00109_ses109_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task11_t1_es is -8.20984 over 256 frames.
+user00109_ses109_rep7_task12_t2_es la por vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task12_t2_es is -8.31349 over 316 frames.
+user00109_ses109_rep7_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task13_t3_es is -8.18709 over 232 frames.
+user00109_ses109_rep7_task14_t4_es la libros nuevos caben mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task14_t4_es is -8.3067 over 334 frames.
+user00109_ses109_rep7_task15_t5_es rosita mi no que pinta vi de las cuadros debes 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task15_t5_es is -8.83769 over 376 frames.
+user00109_ses109_rep7_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task16_t6_es is -8.48531 over 364 frames.
+user00109_ses109_rep7_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task17_t7_es is -8.53526 over 322 frames.
+user00109_ses109_rep7_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task18_t8_es is -8.0509 over 304 frames.
+user00109_ses109_rep7_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task19_t9_es is -8.80735 over 274 frames.
+user00109_ses109_rep7_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep7_task20_t10_es is -7.53922 over 316 frames.
+user00109_ses109_rep8_task11_t1_es aplicaciones cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task11_t1_es is -9.08033 over 190 frames.
+user00109_ses109_rep8_task12_t2_es moto que vive cerca que juan 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task12_t2_es is -8.75872 over 232 frames.
+user00109_ses109_rep8_task13_t3_es muchas una tanto pasa tiene 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task13_t3_es is -8.39295 over 232 frames.
+user00109_ses109_rep8_task14_t4_es la libros laura caben omar oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task14_t4_es is -7.92292 over 316 frames.
+user00109_ses109_rep8_task15_t5_es morir caben bien problema escaleras un 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task15_t5_es is -8.53602 over 334 frames.
+user00109_ses109_rep8_task16_t6_es luisa rey colchon colchon llegar tanto gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task16_t6_es is -8.55187 over 304 frames.
+user00109_ses109_rep8_task17_t7_es problema duro que muchas al casa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task17_t7_es is -8.16044 over 334 frames.
+user00109_ses109_rep8_task18_t8_es para llegar dono sus escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task18_t8_es is -8.30392 over 286 frames.
+user00109_ses109_rep8_task19_t9_es por contaminacion ese problema fuerza 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task19_t9_es is -8.04814 over 286 frames.
+user00109_ses109_rep8_task20_t10_es dono sus ayer ayudarme juan 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep8_task20_t10_es is -8.3546 over 244 frames.
+user00109_ses109_rep9_task11_t1_es gusta matematicas cuadros 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task11_t1_es is -8.10294 over 244 frames.
+user00109_ses109_rep9_task12_t2_es que vi tiene cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task12_t2_es is -8.09371 over 238 frames.
+user00109_ses109_rep9_task13_t3_es laura yo preocupado 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task13_t3_es is -7.88415 over 250 frames.
+user00109_ses109_rep9_task14_t4_es la medalla caben amigo oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task14_t4_es is -7.8185 over 346 frames.
+user00109_ses109_rep9_task15_t5_es rosita libros aplicaciones sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task15_t5_es is -8.32507 over 370 frames.
+user00109_ses109_rep9_task16_t6_es luisa rey colchon colchon de matematicas 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task16_t6_es is -8.44713 over 304 frames.
+user00109_ses109_rep9_task17_t7_es por matematicas muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task17_t7_es is -7.96217 over 334 frames.
+user00109_ses109_rep9_task18_t8_es para llegar nuevos escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task18_t8_es is -8.44118 over 256 frames.
+user00109_ses109_rep9_task19_t9_es que contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task19_t9_es is -8.30317 over 268 frames.
+user00109_ses109_rep9_task20_t10_es libros por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00109_ses109_rep9_task20_t10_es is -7.93311 over 244 frames.
+user00110_ses110_rep10_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task11_t1_es is -7.47781 over 250 frames.
+user00110_ses110_rep10_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task12_t2_es is -7.25482 over 298 frames.
+user00110_ses110_rep10_task13_t3_es laura sube pinta pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task13_t3_es is -7.65195 over 286 frames.
+user00110_ses110_rep10_task14_t4_es le yo dono no vive la mesa el oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task14_t4_es is -7.85843 over 310 frames.
+user00110_ses110_rep10_task15_t5_es rosita moto pinta bien todos es cuadros es es 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task15_t5_es is -7.78812 over 454 frames.
+user00110_ses110_rep10_task16_t6_es dono mesa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task16_t6_es is -8.33248 over 322 frames.
+user00110_ses110_rep10_task17_t7_es mas matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task17_t7_es is -8.0906 over 334 frames.
+user00110_ses110_rep10_task18_t8_es yo para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task18_t8_es is -8.18442 over 322 frames.
+user00110_ses110_rep10_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task19_t9_es is -8.07474 over 298 frames.
+user00110_ses110_rep10_task20_t10_es no mucha gracias cada 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep10_task20_t10_es is -7.8302 over 226 frames.
+user00110_ses110_rep1_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task11_t1_es is -8.61311 over 292 frames.
+user00110_ses110_rep1_task12_t2_es que vi tiene cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task12_t2_es is -8.49343 over 514 frames.
+user00110_ses110_rep1_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task13_t3_es is -8.39895 over 316 frames.
+user00110_ses110_rep1_task14_t4_es luisa nuevos no caben la mesa el oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task14_t4_es is -8.64452 over 442 frames.
+user00110_ses110_rep1_task15_t5_es rosita vive un que pinta bien dono sus cuartos ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task15_t5_es is -8.6215 over 526 frames.
+user00110_ses110_rep1_task16_t6_es luisa rey compra colchon duro que tanto le gusta me 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task16_t6_es is -8.63468 over 418 frames.
+user00110_ses110_rep1_task17_t7_es las matematicas tiene muchas aplicaciones al 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task17_t7_es is -8.84807 over 328 frames.
+user00110_ses110_rep1_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task18_t8_es is -8.07177 over 346 frames.
+user00110_ses110_rep1_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task19_t9_es is -8.61484 over 304 frames.
+user00110_ses110_rep1_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep1_task20_t10_es is -8.22358 over 316 frames.
+user00110_ses110_rep2_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task11_t1_es is -8.40739 over 256 frames.
+user00110_ses110_rep2_task12_t2_es que vive cerca trajo mesa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task12_t2_es is -8.36901 over 334 frames.
+user00110_ses110_rep2_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task13_t3_es is -8.25477 over 286 frames.
+user00110_ses110_rep2_task14_t4_es los llegar nuevos no caben la mesa el oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task14_t4_es is -8.20294 over 400 frames.
+user00110_ses110_rep2_task15_t5_es rosita iba que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task15_t5_es is -8.57131 over 436 frames.
+user00110_ses110_rep2_task16_t6_es luisa de compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task16_t6_es is -8.68334 over 364 frames.
+user00110_ses110_rep2_task17_t7_es las matematicas me muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task17_t7_es is -8.68338 over 316 frames.
+user00110_ses110_rep2_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task18_t8_es is -8.34747 over 316 frames.
+user00110_ses110_rep2_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task19_t9_es is -8.26577 over 340 frames.
+user00110_ses110_rep2_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep2_task20_t10_es is -8.08277 over 280 frames.
+user00110_ses110_rep3_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task11_t1_es is -8.43269 over 304 frames.
+user00110_ses110_rep3_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task12_t2_es is -8.56881 over 298 frames.
+user00110_ses110_rep3_task13_t3_es laura sube tren que pasa al 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task13_t3_es is -8.62629 over 244 frames.
+user00110_ses110_rep3_task14_t4_es la libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task14_t4_es is -8.75142 over 352 frames.
+user00110_ses110_rep3_task15_t5_es rosita vi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task15_t5_es is -8.67397 over 406 frames.
+user00110_ses110_rep3_task16_t6_es luisa se compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task16_t6_es is -8.48102 over 388 frames.
+user00110_ses110_rep3_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task17_t7_es is -8.80708 over 328 frames.
+user00110_ses110_rep3_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task18_t8_es is -8.57385 over 310 frames.
+user00110_ses110_rep3_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task19_t9_es is -7.76675 over 526 frames.
+user00110_ses110_rep3_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep3_task20_t10_es is -8.12692 over 280 frames.
+user00110_ses110_rep4_task11_t1_es los casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task11_t1_es is -8.44411 over 262 frames.
+user00110_ses110_rep4_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task12_t2_es is -8.6678 over 298 frames.
+user00110_ses110_rep4_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task13_t3_es is -8.48465 over 286 frames.
+user00110_ses110_rep4_task14_t4_es la libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task14_t4_es is -8.52616 over 358 frames.
+user00110_ses110_rep4_task15_t5_es rosita mi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task15_t5_es is -8.51525 over 412 frames.
+user00110_ses110_rep4_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task16_t6_es is -8.59771 over 370 frames.
+user00110_ses110_rep4_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task17_t7_es is -8.7221 over 328 frames.
+user00110_ses110_rep4_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task18_t8_es is -8.52309 over 310 frames.
+user00110_ses110_rep4_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task19_t9_es is -8.61867 over 280 frames.
+user00110_ses110_rep4_task20_t10_es mucha las estoy ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep4_task20_t10_es is -8.4215 over 244 frames.
+user00110_ses110_rep5_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task11_t1_es is -8.08893 over 274 frames.
+user00110_ses110_rep5_task12_t2_es que vive cerca trajo mi es 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task12_t2_es is -8.30646 over 268 frames.
+user00110_ses110_rep5_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task13_t3_es is -7.99277 over 268 frames.
+user00110_ses110_rep5_task14_t4_es la libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task14_t4_es is -8.28703 over 316 frames.
+user00110_ses110_rep5_task15_t5_es rosita tiene que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task15_t5_es is -8.42934 over 436 frames.
+user00110_ses110_rep5_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task16_t6_es is -8.22636 over 418 frames.
+user00110_ses110_rep5_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task17_t7_es is -8.33701 over 358 frames.
+user00110_ses110_rep5_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task18_t8_es is -8.04282 over 328 frames.
+user00110_ses110_rep5_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task19_t9_es is -8.17074 over 316 frames.
+user00110_ses110_rep5_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep5_task20_t10_es is -7.84812 over 244 frames.
+user00110_ses110_rep6_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task11_t1_es is -8.38966 over 244 frames.
+user00110_ses110_rep6_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task12_t2_es is -8.48449 over 274 frames.
+user00110_ses110_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task13_t3_es is -7.95165 over 268 frames.
+user00110_ses110_rep6_task14_t4_es libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task14_t4_es is -8.2487 over 352 frames.
+user00110_ses110_rep6_task15_t5_es rosita tienen que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task15_t5_es is -7.88656 over 586 frames.
+user00110_ses110_rep6_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task16_t6_es is -8.14835 over 376 frames.
+user00110_ses110_rep6_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task17_t7_es is -8.43686 over 358 frames.
+user00110_ses110_rep6_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task18_t8_es is -8.35199 over 286 frames.
+user00110_ses110_rep6_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task19_t9_es is -8.05556 over 328 frames.
+user00110_ses110_rep6_task20_t10_es mucha gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep6_task20_t10_es is -8.39361 over 220 frames.
+user00110_ses110_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task11_t1_es is -7.89628 over 286 frames.
+user00110_ses110_rep7_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task12_t2_es is -8.34756 over 292 frames.
+user00110_ses110_rep7_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task13_t3_es is -8.11124 over 256 frames.
+user00110_ses110_rep7_task14_t4_es libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task14_t4_es is -8.04423 over 370 frames.
+user00110_ses110_rep7_task15_t5_es rosita tienen que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task15_t5_es is -8.5793 over 442 frames.
+user00110_ses110_rep7_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task16_t6_es is -8.4477 over 328 frames.
+user00110_ses110_rep7_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task17_t7_es is -8.41923 over 328 frames.
+user00110_ses110_rep7_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task18_t8_es is -8.26619 over 274 frames.
+user00110_ses110_rep7_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task19_t9_es is -8.29103 over 280 frames.
+user00110_ses110_rep7_task20_t10_es pasa mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep7_task20_t10_es is -8.52549 over 244 frames.
+user00110_ses110_rep8_task11_t1_es mi casa tiene vez cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task11_t1_es is -8.13066 over 310 frames.
+user00110_ses110_rep8_task12_t2_es que bien pesas trajo me 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task12_t2_es is -8.04502 over 298 frames.
+user00110_ses110_rep8_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task13_t3_es is -7.75478 over 286 frames.
+user00110_ses110_rep8_task14_t4_es libros dono caben en mesa oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task14_t4_es is -7.90781 over 316 frames.
+user00110_ses110_rep8_task15_t5_es rosita tiene que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task15_t5_es is -8.02139 over 406 frames.
+user00110_ses110_rep8_task16_t6_es de mesa rey compra colchon duro que tanto gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task16_t6_es is -7.88313 over 382 frames.
+user00110_ses110_rep8_task17_t7_es las matematicas ese muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task17_t7_es is -8.40234 over 304 frames.
+user00110_ses110_rep8_task18_t8_es para llegar que subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task18_t8_es is -8.05487 over 292 frames.
+user00110_ses110_rep8_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task19_t9_es is -7.65712 over 334 frames.
+user00110_ses110_rep8_task20_t10_es mucha gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep8_task20_t10_es is -7.69772 over 262 frames.
+user00110_ses110_rep9_task11_t1_es mi casa tiene tres cuartos una 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task11_t1_es is -7.58687 over 412 frames.
+user00110_ses110_rep9_task12_t2_es tres caben tiene cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task12_t2_es is -7.73236 over 304 frames.
+user00110_ses110_rep9_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task13_t3_es is -7.51898 over 292 frames.
+user00110_ses110_rep9_task14_t4_es libros nuevos no caben en la mesa el oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task14_t4_es is -7.79148 over 340 frames.
+user00110_ses110_rep9_task15_t5_es rosita bien que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task15_t5_es is -7.79651 over 442 frames.
+user00110_ses110_rep9_task16_t6_es mesa rey compra colchon duro contaminacion laura 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task16_t6_es is -8.24134 over 364 frames.
+user00110_ses110_rep9_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task17_t7_es is -8.39936 over 316 frames.
+user00110_ses110_rep9_task18_t8_es para llegar es me las escaleras tiene 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task18_t8_es is -8.03393 over 292 frames.
+user00110_ses110_rep9_task19_t9_es llegar contaminacion sus caben de todos niño 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task19_t9_es is -8.48831 over 304 frames.
+user00110_ses110_rep9_task20_t10_es pasa escaleras ese cuando niño 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00110_ses110_rep9_task20_t10_es is -8.26749 over 274 frames.
+user00111_ses111_rep10_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task11_t1_es is -7.38902 over 310 frames.
+user00111_ses111_rep10_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task12_t2_es is -7.45796 over 268 frames.
+user00111_ses111_rep10_task13_t3_es laura sube tiene pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task13_t3_es is -7.24773 over 280 frames.
+user00111_ses111_rep10_task14_t4_es libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task14_t4_es is -7.67571 over 346 frames.
+user00111_ses111_rep10_task15_t5_es rosita iba que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task15_t5_es is -7.82718 over 388 frames.
+user00111_ses111_rep10_task16_t6_es luisa rey compra colchon duro que tanto le sus 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task16_t6_es is -7.56618 over 394 frames.
+user00111_ses111_rep10_task17_t7_es para matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task17_t7_es is -7.68897 over 310 frames.
+user00111_ses111_rep10_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task18_t8_es is -7.61327 over 286 frames.
+user00111_ses111_rep10_task19_t9_es la contaminacion colchon problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task19_t9_es is -7.56652 over 328 frames.
+user00111_ses111_rep10_task20_t10_es mucha gracias por ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep10_task20_t10_es is -6.98879 over 292 frames.
+user00111_ses111_rep1_task11_t1_es rey casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task11_t1_es is -8.08973 over 286 frames.
+user00111_ses111_rep1_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task12_t2_es is -8.5556 over 268 frames.
+user00111_ses111_rep1_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task13_t3_es is -8.28619 over 262 frames.
+user00111_ses111_rep1_task14_t4_es las libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task14_t4_es is -8.05187 over 370 frames.
+user00111_ses111_rep1_task15_t5_es la rosita miel que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task15_t5_es is -8.30112 over 436 frames.
+user00111_ses111_rep1_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task16_t6_es is -8.51886 over 370 frames.
+user00111_ses111_rep1_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task17_t7_es is -7.9073 over 436 frames.
+user00111_ses111_rep1_task18_t8_es la para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task18_t8_es is -8.3939 over 334 frames.
+user00111_ses111_rep1_task19_t9_es la la contaminacion es un por me todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task19_t9_es is -8.42899 over 412 frames.
+user00111_ses111_rep1_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep1_task20_t10_es is -8.06556 over 262 frames.
+user00111_ses111_rep2_task11_t1_es rey casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task11_t1_es is -7.97484 over 310 frames.
+user00111_ses111_rep2_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task12_t2_es is -7.69714 over 298 frames.
+user00111_ses111_rep2_task13_t3_es laura sube que tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task13_t3_es is -7.71838 over 310 frames.
+user00111_ses111_rep2_task14_t4_es las libros nuevos no caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task14_t4_es is -7.99975 over 370 frames.
+user00111_ses111_rep2_task15_t5_es rosita mi no que pinta bien duro sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task15_t5_es is -8.34562 over 388 frames.
+user00111_ses111_rep2_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task16_t6_es is -8.36696 over 388 frames.
+user00111_ses111_rep2_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task17_t7_es is -8.31481 over 316 frames.
+user00111_ses111_rep2_task18_t8_es la para llegar debes sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task18_t8_es is -7.71156 over 322 frames.
+user00111_ses111_rep2_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task19_t9_es is -8.26465 over 322 frames.
+user00111_ses111_rep2_task20_t10_es la muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep2_task20_t10_es is -7.98547 over 226 frames.
+user00111_ses111_rep3_task11_t1_es la mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task11_t1_es is -8.0379 over 262 frames.
+user00111_ses111_rep3_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task12_t2_es is -7.83282 over 292 frames.
+user00111_ses111_rep3_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task13_t3_es is -8.03242 over 256 frames.
+user00111_ses111_rep3_task14_t4_es las libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task14_t4_es is -8.1882 over 352 frames.
+user00111_ses111_rep3_task15_t5_es la rosita miel que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task15_t5_es is -8.19487 over 406 frames.
+user00111_ses111_rep3_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task16_t6_es is -8.54023 over 364 frames.
+user00111_ses111_rep3_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task17_t7_es is -8.4611 over 304 frames.
+user00111_ses111_rep3_task18_t8_es la llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task18_t8_es is -8.02527 over 280 frames.
+user00111_ses111_rep3_task19_t9_es la contaminacion que sus problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task19_t9_es is -8.44803 over 322 frames.
+user00111_ses111_rep3_task20_t10_es la muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep3_task20_t10_es is -8.13482 over 238 frames.
+user00111_ses111_rep4_task11_t1_es le casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task11_t1_es is -7.98416 over 256 frames.
+user00111_ses111_rep4_task12_t2_es la que vive cerca trajo mi 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task12_t2_es is -7.7806 over 280 frames.
+user00111_ses111_rep4_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task13_t3_es is -7.74119 over 268 frames.
+user00111_ses111_rep4_task14_t4_es las libros dono caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task14_t4_es is -8.12762 over 340 frames.
+user00111_ses111_rep4_task15_t5_es rosita mi una que pinta miel dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task15_t5_es is -8.18643 over 382 frames.
+user00111_ses111_rep4_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task16_t6_es is -8.04822 over 400 frames.
+user00111_ses111_rep4_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task17_t7_es is -8.3754 over 316 frames.
+user00111_ses111_rep4_task18_t8_es la llegar debes sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task18_t8_es is -7.79592 over 304 frames.
+user00111_ses111_rep4_task19_t9_es la contaminacion casa problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task19_t9_es is -8.50514 over 304 frames.
+user00111_ses111_rep4_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep4_task20_t10_es is -7.43977 over 274 frames.
+user00111_ses111_rep5_task11_t1_es el me mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task11_t1_es is -7.92857 over 322 frames.
+user00111_ses111_rep5_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task12_t2_es is -7.64475 over 322 frames.
+user00111_ses111_rep5_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task13_t3_es is -7.87711 over 274 frames.
+user00111_ses111_rep5_task14_t4_es la libros dono caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task14_t4_es is -8.04924 over 328 frames.
+user00111_ses111_rep5_task15_t5_es rosita mi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task15_t5_es is -8.23858 over 352 frames.
+user00111_ses111_rep5_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task16_t6_es is -8.31795 over 352 frames.
+user00111_ses111_rep5_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task17_t7_es is -7.94312 over 328 frames.
+user00111_ses111_rep5_task18_t8_es para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task18_t8_es is -7.90423 over 298 frames.
+user00111_ses111_rep5_task19_t9_es la contaminacion que sus problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task19_t9_es is -8.07087 over 316 frames.
+user00111_ses111_rep5_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep5_task20_t10_es is -7.52607 over 244 frames.
+user00111_ses111_rep6_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task11_t1_es is -7.86622 over 274 frames.
+user00111_ses111_rep6_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task12_t2_es is -7.75786 over 280 frames.
+user00111_ses111_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task13_t3_es is -7.43171 over 298 frames.
+user00111_ses111_rep6_task14_t4_es las libros nuevos no caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task14_t4_es is -7.8308 over 370 frames.
+user00111_ses111_rep6_task15_t5_es rosita mi me que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task15_t5_es is -8.02473 over 394 frames.
+user00111_ses111_rep6_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task16_t6_es is -8.37977 over 352 frames.
+user00111_ses111_rep6_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task17_t7_es is -7.85298 over 364 frames.
+user00111_ses111_rep6_task18_t8_es para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task18_t8_es is -7.92825 over 280 frames.
+user00111_ses111_rep6_task19_t9_es la contaminacion que sus problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task19_t9_es is -7.75116 over 436 frames.
+user00111_ses111_rep6_task20_t10_es en muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep6_task20_t10_es is -7.71492 over 268 frames.
+user00111_ses111_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task11_t1_es is -7.94116 over 250 frames.
+user00111_ses111_rep7_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task12_t2_es is -7.77857 over 262 frames.
+user00111_ses111_rep7_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task13_t3_es is -7.68179 over 268 frames.
+user00111_ses111_rep7_task14_t4_es las libros dono caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task14_t4_es is -8.3429 over 328 frames.
+user00111_ses111_rep7_task15_t5_es rosita vive que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task15_t5_es is -7.86385 over 430 frames.
+user00111_ses111_rep7_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task16_t6_es is -8.13206 over 400 frames.
+user00111_ses111_rep7_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task17_t7_es is -8.28847 over 334 frames.
+user00111_ses111_rep7_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task18_t8_es is -7.67232 over 334 frames.
+user00111_ses111_rep7_task19_t9_es la contaminacion mi es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task19_t9_es is -7.94302 over 376 frames.
+user00111_ses111_rep7_task20_t10_es muchas gracias por ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep7_task20_t10_es is -7.47771 over 262 frames.
+user00111_ses111_rep8_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task11_t1_es is -7.24286 over 292 frames.
+user00111_ses111_rep8_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task12_t2_es is -7.31694 over 298 frames.
+user00111_ses111_rep8_task13_t3_es laura sube tiene pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task13_t3_es is -7.28409 over 256 frames.
+user00111_ses111_rep8_task14_t4_es la amigo nuevos no caben la mesa miel oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task14_t4_es is -7.78766 over 346 frames.
+user00111_ses111_rep8_task15_t5_es rosita iba que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task15_t5_es is -7.3488 over 454 frames.
+user00111_ses111_rep8_task16_t6_es luisa rey compra colchon duro que tanto le sus 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task16_t6_es is -7.37755 over 412 frames.
+user00111_ses111_rep8_task17_t7_es para matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task17_t7_es is -7.56988 over 316 frames.
+user00111_ses111_rep8_task18_t8_es para llegar de subir ayer caben 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task18_t8_es is -7.52853 over 304 frames.
+user00111_ses111_rep8_task19_t9_es la contaminacion pierna problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task19_t9_es is -7.66068 over 322 frames.
+user00111_ses111_rep8_task20_t10_es muchas casa por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep8_task20_t10_es is -7.12904 over 226 frames.
+user00111_ses111_rep9_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task11_t1_es is -7.4976 over 250 frames.
+user00111_ses111_rep9_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task12_t2_es is -7.6253 over 244 frames.
+user00111_ses111_rep9_task13_t3_es laura sube tiene pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task13_t3_es is -7.38757 over 226 frames.
+user00111_ses111_rep9_task14_t4_es morir omar dono caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task14_t4_es is -7.85751 over 334 frames.
+user00111_ses111_rep9_task15_t5_es rosita iba que pinta bien duro sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task15_t5_es is -8.29171 over 352 frames.
+user00111_ses111_rep9_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task16_t6_es is -7.94702 over 346 frames.
+user00111_ses111_rep9_task17_t7_es para matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task17_t7_es is -8.00612 over 286 frames.
+user00111_ses111_rep9_task18_t8_es para llegar vez subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task18_t8_es is -7.75714 over 280 frames.
+user00111_ses111_rep9_task19_t9_es la contaminacion que sus problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task19_t9_es is -7.97822 over 304 frames.
+user00111_ses111_rep9_task20_t10_es mucha ganar por ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00111_ses111_rep9_task20_t10_es is -7.42318 over 202 frames.
+user00112_ses112_rep10_task11_t1_es ganar tiene que cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task11_t1_es is -7.15091 over 322 frames.
+user00112_ses112_rep10_task12_t2_es que vive plata trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task12_t2_es is -7.3008 over 358 frames.
+user00112_ses112_rep10_task13_t3_es la la sube preocupado 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task13_t3_es is -7.24341 over 316 frames.
+user00112_ses112_rep10_task14_t4_es la llegar ganar caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task14_t4_es is -7.2651 over 406 frames.
+user00112_ses112_rep10_task15_t5_es un rosita cerca tren caben la gracias cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task15_t5_es is -7.6093 over 454 frames.
+user00112_ses112_rep10_task16_t6_es luisa rey compra colchon plata tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task16_t6_es is -7.48573 over 412 frames.
+user00112_ses112_rep10_task17_t7_es la matematicas tiene matematicas yo un 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task17_t7_es is -7.49083 over 364 frames.
+user00112_ses112_rep10_task18_t8_es para llegar debes llegar cerca le 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task18_t8_es is -7.29363 over 346 frames.
+user00112_ses112_rep10_task19_t9_es la contaminacion ese problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task19_t9_es is -7.4889 over 364 frames.
+user00112_ses112_rep10_task20_t10_es luisa ganar por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep10_task20_t10_es is -7.19355 over 292 frames.
+user00112_ses112_rep1_task11_t1_es la mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task11_t1_es is -7.2868 over 400 frames.
+user00112_ses112_rep1_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task12_t2_es is -7.72005 over 436 frames.
+user00112_ses112_rep1_task13_t3_es laura sube tren pesas 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task13_t3_es is -7.69574 over 382 frames.
+user00112_ses112_rep1_task14_t4_es la libros nuevos no cada mesa mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task14_t4_es is -7.8287 over 466 frames.
+user00112_ses112_rep1_task15_t5_es le rosita iba que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task15_t5_es is -8.11836 over 562 frames.
+user00112_ses112_rep1_task16_t6_es la luisa rey la compra colchon duro que tanto de gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task16_t6_es is -8.21416 over 562 frames.
+user00112_ses112_rep1_task17_t7_es las matematicas tiene muchas aplicaciones le 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task17_t7_es is -7.90266 over 412 frames.
+user00112_ses112_rep1_task18_t8_es las para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task18_t8_es is -7.67989 over 442 frames.
+user00112_ses112_rep1_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task19_t9_es is -7.54136 over 484 frames.
+user00112_ses112_rep1_task20_t10_es la mucha gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep1_task20_t10_es is -7.17054 over 364 frames.
+user00112_ses112_rep2_task11_t1_es le casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task11_t1_es is -7.74924 over 370 frames.
+user00112_ses112_rep2_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task12_t2_es is -7.31551 over 394 frames.
+user00112_ses112_rep2_task13_t3_es laura ayudarme tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task13_t3_es is -7.23315 over 406 frames.
+user00112_ses112_rep2_task14_t4_es la libros nuevos no casa la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task14_t4_es is -7.62789 over 424 frames.
+user00112_ses112_rep2_task15_t5_es la rosita niño que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task15_t5_es is -7.8706 over 496 frames.
+user00112_ses112_rep2_task16_t6_es luisa rey compra colchon duro que tanto la luisa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task16_t6_es is -7.88605 over 484 frames.
+user00112_ses112_rep2_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task17_t7_es is -7.76349 over 418 frames.
+user00112_ses112_rep2_task18_t8_es la para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task18_t8_es is -7.66656 over 406 frames.
+user00112_ses112_rep2_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task19_t9_es is -7.63661 over 370 frames.
+user00112_ses112_rep2_task20_t10_es la mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep2_task20_t10_es is -7.21533 over 322 frames.
+user00112_ses112_rep3_task11_t1_es la mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task11_t1_es is -7.81427 over 322 frames.
+user00112_ses112_rep3_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task12_t2_es is -7.38145 over 424 frames.
+user00112_ses112_rep3_task13_t3_es laura sube triste pasa la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task13_t3_es is -7.55348 over 412 frames.
+user00112_ses112_rep3_task14_t4_es los libros nuevos la casa la mesa la oficina al 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task14_t4_es is -8.11099 over 436 frames.
+user00112_ses112_rep3_task15_t5_es rosita niño que pinta bien todos cuadros ayer la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task15_t5_es is -7.67868 over 478 frames.
+user00112_ses112_rep3_task16_t6_es luisa se compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task16_t6_es is -7.99512 over 436 frames.
+user00112_ses112_rep3_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task17_t7_es is -8.05537 over 364 frames.
+user00112_ses112_rep3_task18_t8_es la llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task18_t8_es is -7.34968 over 406 frames.
+user00112_ses112_rep3_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task19_t9_es is -7.69456 over 352 frames.
+user00112_ses112_rep3_task20_t10_es la muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep3_task20_t10_es is -7.24618 over 334 frames.
+user00112_ses112_rep4_task11_t1_es la muy casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task11_t1_es is -7.66137 over 352 frames.
+user00112_ses112_rep4_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task12_t2_es is -7.30525 over 394 frames.
+user00112_ses112_rep4_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task13_t3_es is -7.00938 over 436 frames.
+user00112_ses112_rep4_task14_t4_es los libros nuevos por caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task14_t4_es is -7.74257 over 454 frames.
+user00112_ses112_rep4_task15_t5_es la rosita niño que pinta bien la los cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task15_t5_es is -7.80699 over 490 frames.
+user00112_ses112_rep4_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task16_t6_es is -7.84835 over 484 frames.
+user00112_ses112_rep4_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task17_t7_es is -8.10132 over 382 frames.
+user00112_ses112_rep4_task18_t8_es la para llegar debes hablar escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task18_t8_es is -7.77668 over 376 frames.
+user00112_ses112_rep4_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task19_t9_es is -7.79368 over 388 frames.
+user00112_ses112_rep4_task20_t10_es mucha gracias por ayudarme la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep4_task20_t10_es is -7.28212 over 316 frames.
+user00112_ses112_rep5_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task11_t1_es is -7.12904 over 394 frames.
+user00112_ses112_rep5_task12_t2_es que omar iba cerca trajo vez 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task12_t2_es is -7.50117 over 412 frames.
+user00112_ses112_rep5_task13_t3_es laura sube al tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task13_t3_es is -7.48483 over 388 frames.
+user00112_ses112_rep5_task14_t4_es a la libros nuevos la cada la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task14_t4_es is -7.48999 over 520 frames.
+user00112_ses112_rep5_task15_t5_es rosita iba que pinta bien ganar sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task15_t5_es is -7.59524 over 526 frames.
+user00112_ses112_rep5_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task16_t6_es is -7.54647 over 478 frames.
+user00112_ses112_rep5_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task17_t7_es is -7.7035 over 400 frames.
+user00112_ses112_rep5_task18_t8_es para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task18_t8_es is -7.58017 over 358 frames.
+user00112_ses112_rep5_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task19_t9_es is -7.64361 over 358 frames.
+user00112_ses112_rep5_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep5_task20_t10_es is -7.172 over 304 frames.
+user00112_ses112_rep6_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task11_t1_es is -6.97655 over 472 frames.
+user00112_ses112_rep6_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task12_t2_es is -7.48158 over 358 frames.
+user00112_ses112_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task13_t3_es is -7.19784 over 346 frames.
+user00112_ses112_rep6_task14_t4_es la llegar casa cada la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task14_t4_es is -7.58891 over 418 frames.
+user00112_ses112_rep6_task15_t5_es rosita bien que pinta bien la gracias cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task15_t5_es is -7.70655 over 454 frames.
+user00112_ses112_rep6_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task16_t6_es is -7.65956 over 436 frames.
+user00112_ses112_rep6_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task17_t7_es is -8.05171 over 412 frames.
+user00112_ses112_rep6_task18_t8_es para llegar vez subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task18_t8_es is -7.63354 over 376 frames.
+user00112_ses112_rep6_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task19_t9_es is -7.3208 over 394 frames.
+user00112_ses112_rep6_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep6_task20_t10_es is -7.07554 over 310 frames.
+user00112_ses112_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task11_t1_es is -7.51306 over 328 frames.
+user00112_ses112_rep7_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task12_t2_es is -7.46188 over 328 frames.
+user00112_ses112_rep7_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task13_t3_es is -7.41665 over 328 frames.
+user00112_ses112_rep7_task14_t4_es las libros nuevos no caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task14_t4_es is -7.69025 over 436 frames.
+user00112_ses112_rep7_task15_t5_es rosita tienen que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task15_t5_es is -7.69837 over 484 frames.
+user00112_ses112_rep7_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task16_t6_es is -7.60565 over 478 frames.
+user00112_ses112_rep7_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task17_t7_es is -7.5878 over 436 frames.
+user00112_ses112_rep7_task18_t8_es para llegar debes vez las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task18_t8_es is -7.38827 over 376 frames.
+user00112_ses112_rep7_task19_t9_es la contaminacion es en problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task19_t9_es is -7.64323 over 376 frames.
+user00112_ses112_rep7_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep7_task20_t10_es is -7.06421 over 334 frames.
+user00112_ses112_rep8_task11_t1_es miel pasa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task11_t1_es is -7.34506 over 310 frames.
+user00112_ses112_rep8_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task12_t2_es is -7.32295 over 346 frames.
+user00112_ses112_rep8_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task13_t3_es is -7.18457 over 298 frames.
+user00112_ses112_rep8_task14_t4_es la llegar ganar caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task14_t4_es is -7.19213 over 430 frames.
+user00112_ses112_rep8_task15_t5_es le rosita cerca pinta medalla sus cuadros la tres 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task15_t5_es is -7.4187 over 436 frames.
+user00112_ses112_rep8_task16_t6_es luisa tren compra colchon laura que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task16_t6_es is -7.36988 over 466 frames.
+user00112_ses112_rep8_task17_t7_es la matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task17_t7_es is -7.48526 over 406 frames.
+user00112_ses112_rep8_task18_t8_es para llegar debes llegar escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task18_t8_es is -7.26973 over 376 frames.
+user00112_ses112_rep8_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task19_t9_es is -7.29407 over 412 frames.
+user00112_ses112_rep8_task20_t10_es gusta ganar por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep8_task20_t10_es is -7.04142 over 304 frames.
+user00112_ses112_rep9_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task11_t1_es is -7.47223 over 334 frames.
+user00112_ses112_rep9_task12_t2_es que vive plata trajo bien 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task12_t2_es is -7.34365 over 352 frames.
+user00112_ses112_rep9_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task13_t3_es is -7.29633 over 316 frames.
+user00112_ses112_rep9_task14_t4_es la llegar nuevos plata le la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task14_t4_es is -7.53922 over 436 frames.
+user00112_ses112_rep9_task15_t5_es rosita cerca por caben para sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task15_t5_es is -7.666 over 508 frames.
+user00112_ses112_rep9_task16_t6_es pierna rey compra colchon omar tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task16_t6_es is -7.43978 over 442 frames.
+user00112_ses112_rep9_task17_t7_es las matematicas tiene moto trajo pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task17_t7_es is -7.67631 over 394 frames.
+user00112_ses112_rep9_task18_t8_es para llegar debes llegar escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task18_t8_es is -7.45308 over 394 frames.
+user00112_ses112_rep9_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task19_t9_es is -7.54779 over 358 frames.
+user00112_ses112_rep9_task20_t10_es casa gracias para cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00112_ses112_rep9_task20_t10_es is -7.4647 over 322 frames.
+user00113_ses113_rep10_task11_t1_es miel casa tiene tiene cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task11_t1_es is -7.64543 over 358 frames.
+user00113_ses113_rep10_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task12_t2_es is -7.5604 over 376 frames.
+user00113_ses113_rep10_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task13_t3_es is -7.48079 over 316 frames.
+user00113_ses113_rep10_task14_t4_es la libros nuevos no caben no mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task14_t4_es is -7.62964 over 478 frames.
+user00113_ses113_rep10_task15_t5_es rosita mi noticias pinta bien que todos es cuadros a tiene 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task15_t5_es is -7.67614 over 538 frames.
+user00113_ses113_rep10_task16_t6_es luisa rey compra colchon duro pinta problema gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task16_t6_es is -7.77602 over 478 frames.
+user00113_ses113_rep10_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task17_t7_es is -7.59472 over 460 frames.
+user00113_ses113_rep10_task18_t8_es para llegar que sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task18_t8_es is -7.45357 over 406 frames.
+user00113_ses113_rep10_task19_t9_es la contaminacion tres problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task19_t9_es is -7.39948 over 448 frames.
+user00113_ses113_rep10_task20_t10_es muchas cuartos para juan 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep10_task20_t10_es is -7.28996 over 310 frames.
+user00113_ses113_rep1_task11_t1_es la mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task11_t1_es is -8.01103 over 406 frames.
+user00113_ses113_rep1_task12_t2_es la que mas iba cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task12_t2_es is -8.10393 over 436 frames.
+user00113_ses113_rep1_task13_t3_es la de laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task13_t3_es is -8.01667 over 406 frames.
+user00113_ses113_rep1_task14_t4_es la libros nuevos no caben una mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task14_t4_es is -8.10835 over 496 frames.
+user00113_ses113_rep1_task15_t5_es rosita mi niño que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task15_t5_es is -8.3187 over 580 frames.
+user00113_ses113_rep1_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task16_t6_es is -8.21927 over 550 frames.
+user00113_ses113_rep1_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task17_t7_es is -7.96106 over 472 frames.
+user00113_ses113_rep1_task18_t8_es para llegar el debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task18_t8_es is -8.05071 over 460 frames.
+user00113_ses113_rep1_task19_t9_es la contaminacion pesas problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task19_t9_es is -7.93412 over 496 frames.
+user00113_ses113_rep1_task20_t10_es la muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep1_task20_t10_es is -8.04833 over 328 frames.
+user00113_ses113_rep2_task11_t1_es la mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task11_t1_es is -8.21586 over 346 frames.
+user00113_ses113_rep2_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task12_t2_es is -8.0535 over 400 frames.
+user00113_ses113_rep2_task13_t3_es laura sube tiene pasa la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task13_t3_es is -8.15867 over 370 frames.
+user00113_ses113_rep2_task14_t4_es la libros nuevos no caben una mesa la oficina al 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task14_t4_es is -8.154 over 478 frames.
+user00113_ses113_rep2_task15_t5_es rosita niño miel pinta miel dono sus cuadros ayer la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task15_t5_es is -8.4376 over 592 frames.
+user00113_ses113_rep2_task16_t6_es luisa rey compra colchon duro que tanto le sus 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task16_t6_es is -8.21607 over 592 frames.
+user00113_ses113_rep2_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task17_t7_es is -8.26143 over 436 frames.
+user00113_ses113_rep2_task18_t8_es la para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task18_t8_es is -8.49039 over 520 frames.
+user00113_ses113_rep2_task19_t9_es la contaminacion pesas problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task19_t9_es is -8.47792 over 466 frames.
+user00113_ses113_rep2_task20_t10_es la muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep2_task20_t10_es is -8.38996 over 340 frames.
+user00113_ses113_rep3_task11_t1_es le casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task11_t1_es is -7.82764 over 370 frames.
+user00113_ses113_rep3_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task12_t2_es is -8.01669 over 400 frames.
+user00113_ses113_rep3_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task13_t3_es is -7.52477 over 364 frames.
+user00113_ses113_rep3_task14_t4_es la libros nuevos no caben una mesa la oficina al 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task14_t4_es is -8.2176 over 466 frames.
+user00113_ses113_rep3_task15_t5_es la rosita medalla que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task15_t5_es is -8.02641 over 562 frames.
+user00113_ses113_rep3_task16_t6_es luisa rey compra colchon duro que tanto la los 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task16_t6_es is -8.71751 over 508 frames.
+user00113_ses113_rep3_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task17_t7_es is -8.43862 over 454 frames.
+user00113_ses113_rep3_task18_t8_es laura llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task18_t8_es is -8.07159 over 478 frames.
+user00113_ses113_rep3_task19_t9_es la contaminacion es un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task19_t9_es is -8.12302 over 436 frames.
+user00113_ses113_rep3_task20_t10_es la muchas gracias por ayudarme la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep3_task20_t10_es is -8.16201 over 328 frames.
+user00113_ses113_rep4_task11_t1_es le casa tiene tres cuartos la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task11_t1_es is -7.9662 over 358 frames.
+user00113_ses113_rep4_task12_t2_es la que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task12_t2_es is -8.28483 over 358 frames.
+user00113_ses113_rep4_task13_t3_es laura sube las tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task13_t3_es is -8.16251 over 382 frames.
+user00113_ses113_rep4_task14_t4_es la libros nuevos no caben una mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task14_t4_es is -8.4122 over 466 frames.
+user00113_ses113_rep4_task15_t5_es rosita niño que pinta bien dono sus cuadros pasa es 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task15_t5_es is -8.29961 over 538 frames.
+user00113_ses113_rep4_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task16_t6_es is -8.35695 over 472 frames.
+user00113_ses113_rep4_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task17_t7_es is -8.01435 over 478 frames.
+user00113_ses113_rep4_task18_t8_es la para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task18_t8_es is -7.89659 over 424 frames.
+user00113_ses113_rep4_task19_t9_es la contaminacion mesa problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task19_t9_es is -7.92376 over 442 frames.
+user00113_ses113_rep4_task20_t10_es la muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep4_task20_t10_es is -7.82354 over 346 frames.
+user00113_ses113_rep5_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task11_t1_es is -7.47499 over 346 frames.
+user00113_ses113_rep5_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task12_t2_es is -7.5516 over 376 frames.
+user00113_ses113_rep5_task13_t3_es laura sube es tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task13_t3_es is -7.18963 over 394 frames.
+user00113_ses113_rep5_task14_t4_es las libros nuevos la caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task14_t4_es is -7.7406 over 520 frames.
+user00113_ses113_rep5_task15_t5_es rosita niño que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task15_t5_es is -7.65283 over 556 frames.
+user00113_ses113_rep5_task16_t6_es luisa rey compra colchon duro que tanto le gusta para 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task16_t6_es is -7.68632 over 580 frames.
+user00113_ses113_rep5_task17_t7_es la matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task17_t7_es is -7.53662 over 472 frames.
+user00113_ses113_rep5_task18_t8_es para llegar tiene subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task18_t8_es is -7.72648 over 388 frames.
+user00113_ses113_rep5_task19_t9_es la contaminacion ese problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task19_t9_es is -7.51148 over 448 frames.
+user00113_ses113_rep5_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep5_task20_t10_es is -7.6095 over 274 frames.
+user00113_ses113_rep6_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task11_t1_es is -7.42982 over 358 frames.
+user00113_ses113_rep6_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task12_t2_es is -7.89271 over 352 frames.
+user00113_ses113_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task13_t3_es is -7.43403 over 352 frames.
+user00113_ses113_rep6_task14_t4_es los libros nuevos la caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task14_t4_es is -7.8499 over 502 frames.
+user00113_ses113_rep6_task15_t5_es rosita niño que pinta miel todos es cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task15_t5_es is -7.92765 over 538 frames.
+user00113_ses113_rep6_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task16_t6_es is -7.88077 over 496 frames.
+user00113_ses113_rep6_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task17_t7_es is -7.77002 over 454 frames.
+user00113_ses113_rep6_task18_t8_es para llegar iba subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task18_t8_es is -7.59211 over 448 frames.
+user00113_ses113_rep6_task19_t9_es la contaminacion casa problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task19_t9_es is -7.75806 over 412 frames.
+user00113_ses113_rep6_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep6_task20_t10_es is -7.50521 over 334 frames.
+user00113_ses113_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task11_t1_es is -7.45969 over 358 frames.
+user00113_ses113_rep7_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task12_t2_es is -7.56956 over 376 frames.
+user00113_ses113_rep7_task13_t3_es laura sube es tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task13_t3_es is -7.33358 over 406 frames.
+user00113_ses113_rep7_task14_t4_es la libros nuevos no caben llegar mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task14_t4_es is -7.91261 over 472 frames.
+user00113_ses113_rep7_task15_t5_es rosita bien iba que pinta bien tanto sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task15_t5_es is -7.66987 over 574 frames.
+user00113_ses113_rep7_task16_t6_es luisa rey compra colchon duro que tanto la todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task16_t6_es is -7.89493 over 484 frames.
+user00113_ses113_rep7_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task17_t7_es is -7.72927 over 460 frames.
+user00113_ses113_rep7_task18_t8_es para llegar debes sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task18_t8_es is -7.71861 over 412 frames.
+user00113_ses113_rep7_task19_t9_es la contaminacion que sube problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task19_t9_es is -7.60461 over 466 frames.
+user00113_ses113_rep7_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep7_task20_t10_es is -7.3953 over 346 frames.
+user00113_ses113_rep8_task11_t1_es miel casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task11_t1_es is -7.61269 over 322 frames.
+user00113_ses113_rep8_task12_t2_es cada tiene cerca trajo bien 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task12_t2_es is -7.19238 over 400 frames.
+user00113_ses113_rep8_task13_t3_es laura subir tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task13_t3_es is -7.30492 over 370 frames.
+user00113_ses113_rep8_task14_t4_es libros nuevos no caben en la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task14_t4_es is -7.39959 over 532 frames.
+user00113_ses113_rep8_task15_t5_es rosita medalla que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task15_t5_es is -7.48079 over 580 frames.
+user00113_ses113_rep8_task16_t6_es luisa rey compra colchon duro rosita caben gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task16_t6_es is -7.37295 over 538 frames.
+user00113_ses113_rep8_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task17_t7_es is -7.35442 over 490 frames.
+user00113_ses113_rep8_task18_t8_es para llegar tiene subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task18_t8_es is -7.28196 over 424 frames.
+user00113_ses113_rep8_task19_t9_es la contaminacion tres un problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task19_t9_es is -7.3216 over 448 frames.
+user00113_ses113_rep8_task20_t10_es muchas gracias para juan 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep8_task20_t10_es is -7.09625 over 340 frames.
+user00113_ses113_rep9_task11_t1_es miel casa tienen cerca las 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task11_t1_es is -7.44313 over 364 frames.
+user00113_ses113_rep9_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task12_t2_es is -7.33502 over 376 frames.
+user00113_ses113_rep9_task13_t3_es le laura sube matematicas la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task13_t3_es is -7.46577 over 352 frames.
+user00113_ses113_rep9_task14_t4_es la libros nuevos la caben dono mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task14_t4_es is -7.50896 over 472 frames.
+user00113_ses113_rep9_task15_t5_es rosita nuevos tiene pinta bien gracias cuadros a tiene 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task15_t5_es is -7.50498 over 544 frames.
+user00113_ses113_rep9_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task16_t6_es is -7.55138 over 484 frames.
+user00113_ses113_rep9_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task17_t7_es is -7.78512 over 424 frames.
+user00113_ses113_rep9_task18_t8_es para llegar debes sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task18_t8_es is -7.64994 over 382 frames.
+user00113_ses113_rep9_task19_t9_es la contaminacion tres problema de todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task19_t9_es is -7.18964 over 514 frames.
+user00113_ses113_rep9_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00113_ses113_rep9_task20_t10_es is -7.24415 over 346 frames.
+user00114_ses114_rep10_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task11_t1_es is -7.71637 over 262 frames.
+user00114_ses114_rep10_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task12_t2_es is -7.56016 over 316 frames.
+user00114_ses114_rep10_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task13_t3_es is -7.61594 over 250 frames.
+user00114_ses114_rep10_task14_t4_es libros nuevos no para la mesa oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task14_t4_es is -7.83017 over 334 frames.
+user00114_ses114_rep10_task15_t5_es rosita bien la que pinta bien duro sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task15_t5_es is -7.78905 over 376 frames.
+user00114_ses114_rep10_task16_t6_es mesa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task16_t6_es is -7.79192 over 346 frames.
+user00114_ses114_rep10_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task17_t7_es is -7.77322 over 322 frames.
+user00114_ses114_rep10_task18_t8_es para llegar tres las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task18_t8_es is -7.50581 over 316 frames.
+user00114_ses114_rep10_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task19_t9_es is -7.92848 over 286 frames.
+user00114_ses114_rep10_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep10_task20_t10_es is -7.49591 over 250 frames.
+user00114_ses114_rep1_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task11_t1_es is -8.22463 over 268 frames.
+user00114_ses114_rep1_task12_t2_es que vive cerca trajo miel que 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task12_t2_es is -8.43384 over 280 frames.
+user00114_ses114_rep1_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task13_t3_es is -7.94075 over 268 frames.
+user00114_ses114_rep1_task14_t4_es las libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task14_t4_es is -8.29626 over 364 frames.
+user00114_ses114_rep1_task15_t5_es rosita mi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task15_t5_es is -8.71112 over 388 frames.
+user00114_ses114_rep1_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task16_t6_es is -8.89243 over 370 frames.
+user00114_ses114_rep1_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task17_t7_es is -8.45352 over 334 frames.
+user00114_ses114_rep1_task18_t8_es para llegar debes ganar escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task18_t8_es is -8.42619 over 286 frames.
+user00114_ses114_rep1_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task19_t9_es is -8.22527 over 322 frames.
+user00114_ses114_rep1_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep1_task20_t10_es is -8.0855 over 268 frames.
+user00114_ses114_rep2_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task11_t1_es is -8.22263 over 256 frames.
+user00114_ses114_rep2_task12_t2_es de que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task12_t2_es is -8.47096 over 304 frames.
+user00114_ses114_rep2_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task13_t3_es is -8.02989 over 274 frames.
+user00114_ses114_rep2_task14_t4_es la libros nuevos no caben la mesa el oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task14_t4_es is -8.48958 over 334 frames.
+user00114_ses114_rep2_task15_t5_es rosita mi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task15_t5_es is -8.72857 over 394 frames.
+user00114_ses114_rep2_task16_t6_es luisa rey compra el colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task16_t6_es is -8.56935 over 340 frames.
+user00114_ses114_rep2_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task17_t7_es is -8.37691 over 322 frames.
+user00114_ses114_rep2_task18_t8_es para llegar debes libros escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task18_t8_es is -8.28799 over 268 frames.
+user00114_ses114_rep2_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task19_t9_es is -8.09481 over 322 frames.
+user00114_ses114_rep2_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep2_task20_t10_es is -8.1427 over 244 frames.
+user00114_ses114_rep3_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task11_t1_es is -8.66945 over 232 frames.
+user00114_ses114_rep3_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task12_t2_es is -8.36497 over 256 frames.
+user00114_ses114_rep3_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task13_t3_es is -7.95929 over 256 frames.
+user00114_ses114_rep3_task14_t4_es los libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task14_t4_es is -8.21313 over 394 frames.
+user00114_ses114_rep3_task15_t5_es rosita miel que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task15_t5_es is -8.51197 over 394 frames.
+user00114_ses114_rep3_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task16_t6_es is -8.83317 over 310 frames.
+user00114_ses114_rep3_task17_t7_es las matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task17_t7_es is -8.64713 over 298 frames.
+user00114_ses114_rep3_task18_t8_es para llegar debes ganar escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task18_t8_es is -8.08705 over 310 frames.
+user00114_ses114_rep3_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task19_t9_es is -8.27911 over 322 frames.
+user00114_ses114_rep3_task20_t10_es muchas gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep3_task20_t10_es is -8.1509 over 226 frames.
+user00114_ses114_rep4_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task11_t1_es is -7.92705 over 274 frames.
+user00114_ses114_rep4_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task12_t2_es is -8.1018 over 298 frames.
+user00114_ses114_rep4_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task13_t3_es is -8.14428 over 268 frames.
+user00114_ses114_rep4_task14_t4_es libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task14_t4_es is -8.42201 over 334 frames.
+user00114_ses114_rep4_task15_t5_es rosita niño que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task15_t5_es is -8.71687 over 388 frames.
+user00114_ses114_rep4_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task16_t6_es is -8.51263 over 340 frames.
+user00114_ses114_rep4_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task17_t7_es is -8.20429 over 352 frames.
+user00114_ses114_rep4_task18_t8_es para llegar de sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task18_t8_es is -8.40759 over 268 frames.
+user00114_ses114_rep4_task19_t9_es la contaminacion las un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task19_t9_es is -8.12151 over 352 frames.
+user00114_ses114_rep4_task20_t10_es muchas gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep4_task20_t10_es is -7.95595 over 256 frames.
+user00114_ses114_rep5_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task11_t1_es is -7.71056 over 292 frames.
+user00114_ses114_rep5_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task12_t2_es is -7.81165 over 298 frames.
+user00114_ses114_rep5_task13_t3_es laura sube la que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task13_t3_es is -7.90244 over 238 frames.
+user00114_ses114_rep5_task14_t4_es libros mas no caben la tres al oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task14_t4_es is -8.26118 over 334 frames.
+user00114_ses114_rep5_task15_t5_es rosita tiene que pinta bien para sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task15_t5_es is -8.13601 over 418 frames.
+user00114_ses114_rep5_task16_t6_es mesa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task16_t6_es is -8.42663 over 316 frames.
+user00114_ses114_rep5_task17_t7_es las matematicas en en muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task17_t7_es is -8.13068 over 316 frames.
+user00114_ses114_rep5_task18_t8_es para llegar las las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task18_t8_es is -7.91693 over 292 frames.
+user00114_ses114_rep5_task19_t9_es la contaminacion que sus problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task19_t9_es is -7.81732 over 364 frames.
+user00114_ses114_rep5_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep5_task20_t10_es is -7.57589 over 274 frames.
+user00114_ses114_rep6_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task11_t1_es is -7.83799 over 262 frames.
+user00114_ses114_rep6_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task12_t2_es is -7.9868 over 292 frames.
+user00114_ses114_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task13_t3_es is -7.61723 over 268 frames.
+user00114_ses114_rep6_task14_t4_es la libros nuevos no para la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task14_t4_es is -8.22013 over 310 frames.
+user00114_ses114_rep6_task15_t5_es rosita miel que pinta bien duro sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task15_t5_es is -8.28758 over 424 frames.
+user00114_ses114_rep6_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task16_t6_es is -8.24966 over 424 frames.
+user00114_ses114_rep6_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task17_t7_es is -8.34238 over 316 frames.
+user00114_ses114_rep6_task18_t8_es la llegar debes las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task18_t8_es is -7.95714 over 292 frames.
+user00114_ses114_rep6_task19_t9_es la contaminacion casa problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task19_t9_es is -7.74629 over 340 frames.
+user00114_ses114_rep6_task20_t10_es muchas gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep6_task20_t10_es is -7.75545 over 274 frames.
+user00114_ses114_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task11_t1_es is -8.25795 over 262 frames.
+user00114_ses114_rep7_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task12_t2_es is -7.99215 over 292 frames.
+user00114_ses114_rep7_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task13_t3_es is -7.7434 over 274 frames.
+user00114_ses114_rep7_task14_t4_es libros nuevos no caben la mesa oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task14_t4_es is -8.33368 over 328 frames.
+user00114_ses114_rep7_task15_t5_es rosita miel que pinta miel dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task15_t5_es is -8.66332 over 340 frames.
+user00114_ses114_rep7_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task16_t6_es is -8.22584 over 346 frames.
+user00114_ses114_rep7_task17_t7_es las matematicas llegar muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task17_t7_es is -8.50105 over 328 frames.
+user00114_ses114_rep7_task18_t8_es para llegar debes libros escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task18_t8_es is -7.96132 over 280 frames.
+user00114_ses114_rep7_task19_t9_es la contaminacion casa problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task19_t9_es is -7.78171 over 382 frames.
+user00114_ses114_rep7_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep7_task20_t10_es is -7.73059 over 268 frames.
+user00114_ses114_rep8_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task11_t1_es is -7.65184 over 256 frames.
+user00114_ses114_rep8_task12_t2_es que vive cerca trajo bien 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task12_t2_es is -7.47424 over 292 frames.
+user00114_ses114_rep8_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task13_t3_es is -7.49085 over 274 frames.
+user00114_ses114_rep8_task14_t4_es libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task14_t4_es is -7.81846 over 340 frames.
+user00114_ses114_rep8_task15_t5_es rosita bien yo que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task15_t5_es is -7.89057 over 388 frames.
+user00114_ses114_rep8_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task16_t6_es is -7.9527 over 334 frames.
+user00114_ses114_rep8_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task17_t7_es is -8.02774 over 316 frames.
+user00114_ses114_rep8_task18_t8_es para llegar ese las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task18_t8_es is -7.77244 over 280 frames.
+user00114_ses114_rep8_task19_t9_es la contaminacion tres un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task19_t9_es is -7.7671 over 304 frames.
+user00114_ses114_rep8_task20_t10_es muchas gracias ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep8_task20_t10_es is -7.25036 over 280 frames.
+user00114_ses114_rep9_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task11_t1_es is -7.70475 over 262 frames.
+user00114_ses114_rep9_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task12_t2_es is -7.57451 over 286 frames.
+user00114_ses114_rep9_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task13_t3_es is -7.73592 over 262 frames.
+user00114_ses114_rep9_task14_t4_es las libros mas moto la la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task14_t4_es is -8.06729 over 352 frames.
+user00114_ses114_rep9_task15_t5_es rosita miel que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task15_t5_es is -7.93824 over 382 frames.
+user00114_ses114_rep9_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task16_t6_es is -8.14277 over 322 frames.
+user00114_ses114_rep9_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task17_t7_es is -8.12447 over 310 frames.
+user00114_ses114_rep9_task18_t8_es para llegar de sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task18_t8_es is -7.97125 over 262 frames.
+user00114_ses114_rep9_task19_t9_es la contaminacion casa problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task19_t9_es is -7.83724 over 298 frames.
+user00114_ses114_rep9_task20_t10_es muchas gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00114_ses114_rep9_task20_t10_es is -7.61487 over 226 frames.
+user00115_ses115_rep10_task11_t1_es mi cada tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task11_t1_es is -7.69615 over 274 frames.
+user00115_ses115_rep10_task12_t2_es que vive tanto trajo me 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task12_t2_es is -7.34788 over 286 frames.
+user00115_ses115_rep10_task13_t3_es laura cuando tanto por 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task13_t3_es is -7.47914 over 268 frames.
+user00115_ses115_rep10_task14_t4_es los llegar moto cuando la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task14_t4_es is -7.40294 over 352 frames.
+user00115_ses115_rep10_task15_t5_es rosita mi moto pinta en dono sus colchon yo 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task15_t5_es is -7.34862 over 388 frames.
+user00115_ses115_rep10_task16_t6_es luisa rey compra colchon duro que tanto llegar 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task16_t6_es is -7.73659 over 340 frames.
+user00115_ses115_rep10_task17_t7_es que la matematicas en cerca tren 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task17_t7_es is -7.45882 over 316 frames.
+user00115_ses115_rep10_task18_t8_es para llegar debes sube gracias que me 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task18_t8_es is -7.33707 over 310 frames.
+user00115_ses115_rep10_task19_t9_es la contaminacion tanto le juan todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task19_t9_es is -7.77099 over 304 frames.
+user00115_ses115_rep10_task20_t10_es mucha medalla para juan 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep10_task20_t10_es is -7.96483 over 226 frames.
+user00115_ses115_rep1_task11_t1_es me mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task11_t1_es is -7.81955 over 322 frames.
+user00115_ses115_rep1_task12_t2_es caben iba cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task12_t2_es is -7.32166 over 496 frames.
+user00115_ses115_rep1_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task13_t3_es is -7.80775 over 298 frames.
+user00115_ses115_rep1_task14_t4_es la llegar nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task14_t4_es is -7.76207 over 430 frames.
+user00115_ses115_rep1_task15_t5_es rosita mi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task15_t5_es is -8.38697 over 454 frames.
+user00115_ses115_rep1_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task16_t6_es is -8.32587 over 556 frames.
+user00115_ses115_rep1_task17_t7_es la matematicas en muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task17_t7_es is -8.00783 over 364 frames.
+user00115_ses115_rep1_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task18_t8_es is -8.63668 over 286 frames.
+user00115_ses115_rep1_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task19_t9_es is -7.8186 over 370 frames.
+user00115_ses115_rep1_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep1_task20_t10_es is -8.05056 over 286 frames.
+user00115_ses115_rep2_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task11_t1_es is -7.7965 over 304 frames.
+user00115_ses115_rep2_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task12_t2_es is -7.82384 over 382 frames.
+user00115_ses115_rep2_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task13_t3_es is -7.74523 over 304 frames.
+user00115_ses115_rep2_task14_t4_es la libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task14_t4_es is -8.07067 over 406 frames.
+user00115_ses115_rep2_task15_t5_es rosita tiene que pinta bien cuando sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task15_t5_es is -8.06894 over 532 frames.
+user00115_ses115_rep2_task16_t6_es luisa rey compra que colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task16_t6_es is -8.32646 over 436 frames.
+user00115_ses115_rep2_task17_t7_es la matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task17_t7_es is -7.79471 over 388 frames.
+user00115_ses115_rep2_task18_t8_es para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task18_t8_es is -7.95451 over 304 frames.
+user00115_ses115_rep2_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task19_t9_es is -7.6973 over 304 frames.
+user00115_ses115_rep2_task20_t10_es mucha ganar por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep2_task20_t10_es is -7.65503 over 238 frames.
+user00115_ses115_rep3_task11_t1_es mi casa tiene tres casa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task11_t1_es is -7.54181 over 286 frames.
+user00115_ses115_rep3_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task12_t2_es is -7.899 over 364 frames.
+user00115_ses115_rep3_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task13_t3_es is -7.64396 over 370 frames.
+user00115_ses115_rep3_task14_t4_es los libros nuevos no caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task14_t4_es is -8.08959 over 376 frames.
+user00115_ses115_rep3_task15_t5_es rosita vive que pinta miel dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task15_t5_es is -8.0948 over 472 frames.
+user00115_ses115_rep3_task16_t6_es luisa rey compra colchon duro que tanto le gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task16_t6_es is -8.08612 over 460 frames.
+user00115_ses115_rep3_task17_t7_es la matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task17_t7_es is -8.11579 over 406 frames.
+user00115_ses115_rep3_task18_t8_es para llegar debes un las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task18_t8_es is -7.78 over 328 frames.
+user00115_ses115_rep3_task19_t9_es la contaminacion mesa problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task19_t9_es is -8.11266 over 352 frames.
+user00115_ses115_rep3_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep3_task20_t10_es is -7.85872 over 244 frames.
+user00115_ses115_rep4_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task11_t1_es is -7.77905 over 292 frames.
+user00115_ses115_rep4_task12_t2_es que vive cerca trajo miel los 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task12_t2_es is -8.16709 over 352 frames.
+user00115_ses115_rep4_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task13_t3_es is -7.72635 over 298 frames.
+user00115_ses115_rep4_task14_t4_es los libros nuevos no cuando la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task14_t4_es is -7.86489 over 412 frames.
+user00115_ses115_rep4_task15_t5_es rosita tiene que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task15_t5_es is -7.86066 over 478 frames.
+user00115_ses115_rep4_task16_t6_es luisa rey compra tren colchon duro que tanto la sus 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task16_t6_es is -8.21018 over 574 frames.
+user00115_ses115_rep4_task17_t7_es omar matematicas tienen muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task17_t7_es is -8.31095 over 382 frames.
+user00115_ses115_rep4_task18_t8_es para llegar debes subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task18_t8_es is -7.87094 over 412 frames.
+user00115_ses115_rep4_task19_t9_es la contaminacion ese problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task19_t9_es is -7.6131 over 430 frames.
+user00115_ses115_rep4_task20_t10_es mucha gracias por ayudarme 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep4_task20_t10_es is -7.78541 over 268 frames.
+user00115_ses115_rep5_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task11_t1_es is -7.70566 over 262 frames.
+user00115_ses115_rep5_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task12_t2_es is -7.64066 over 310 frames.
+user00115_ses115_rep5_task13_t3_es laura sube tren que pesas 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task13_t3_es is -7.68987 over 334 frames.
+user00115_ses115_rep5_task14_t4_es las libros vez no cuando mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task14_t4_es is -8.16352 over 346 frames.
+user00115_ses115_rep5_task15_t5_es rosita tiene que pinta en dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task15_t5_es is -8.08717 over 424 frames.
+user00115_ses115_rep5_task16_t6_es un es luisa rey casa colchon duro que tanto le luisa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task16_t6_es is -8.35676 over 472 frames.
+user00115_ses115_rep5_task17_t7_es las matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task17_t7_es is -7.00794 over 568 frames.
+user00115_ses115_rep5_task18_t8_es para llegar debes sube la mesa me 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task18_t8_es is -7.11061 over 394 frames.
+user00115_ses115_rep5_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task19_t9_es is -7.87994 over 304 frames.
+user00115_ses115_rep5_task20_t10_es mucha gracias por ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep5_task20_t10_es is -7.67541 over 208 frames.
+user00115_ses115_rep6_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task11_t1_es is -8.07775 over 280 frames.
+user00115_ses115_rep6_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task12_t2_es is -8.14555 over 298 frames.
+user00115_ses115_rep6_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task13_t3_es is -7.77902 over 280 frames.
+user00115_ses115_rep6_task14_t4_es libros nuevos no cada la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task14_t4_es is -7.52961 over 490 frames.
+user00115_ses115_rep6_task15_t5_es rosita tiene que pinta bien todos cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task15_t5_es is -7.84641 over 394 frames.
+user00115_ses115_rep6_task16_t6_es luisa rey compra colchon duro de tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task16_t6_es is -7.93022 over 436 frames.
+user00115_ses115_rep6_task17_t7_es las matematicas iba muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task17_t7_es is -7.70302 over 412 frames.
+user00115_ses115_rep6_task18_t8_es para llegar de subir las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task18_t8_es is -7.71716 over 376 frames.
+user00115_ses115_rep6_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task19_t9_es is -7.56588 over 394 frames.
+user00115_ses115_rep6_task20_t10_es mucha las para llegar 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep6_task20_t10_es is -7.50334 over 292 frames.
+user00115_ses115_rep7_task11_t1_es mi casa tiene tres cuartos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task11_t1_es is -8.06797 over 298 frames.
+user00115_ses115_rep7_task12_t2_es que vive cerca trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task12_t2_es is -7.74229 over 298 frames.
+user00115_ses115_rep7_task13_t3_es laura sube tren que pasa 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task13_t3_es is -7.63744 over 262 frames.
+user00115_ses115_rep7_task14_t4_es libros nuevos no cada la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task14_t4_es is -7.7567 over 328 frames.
+user00115_ses115_rep7_task15_t5_es rosita tienen que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task15_t5_es is -8.01658 over 424 frames.
+user00115_ses115_rep7_task16_t6_es luisa rey compra es colchon duro que tanto se gusta es 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task16_t6_es is -8.56257 over 448 frames.
+user00115_ses115_rep7_task17_t7_es la matematicas en muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task17_t7_es is -7.93943 over 286 frames.
+user00115_ses115_rep7_task18_t8_es para llegar de subir escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task18_t8_es is -7.38562 over 466 frames.
+user00115_ses115_rep7_task19_t9_es la contaminacion es un problema todos la 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task19_t9_es is -7.70482 over 304 frames.
+user00115_ses115_rep7_task20_t10_es muchas gracias por ayudarme es 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep7_task20_t10_es is -7.64238 over 250 frames.
+user00115_ses115_rep8_task11_t1_es mi casa tienen tres que 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task11_t1_es is -7.81786 over 268 frames.
+user00115_ses115_rep8_task12_t2_es que vive plata trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task12_t2_es is -7.575 over 292 frames.
+user00115_ses115_rep8_task13_t3_es laura sube tren que por 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task13_t3_es is -7.68033 over 250 frames.
+user00115_ses115_rep8_task14_t4_es debes los los caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task14_t4_es is -7.5279 over 394 frames.
+user00115_ses115_rep8_task15_t5_es ayer rosita mi no que pinta bien dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task15_t5_es is -8.04709 over 424 frames.
+user00115_ses115_rep8_task16_t6_es luisa rey compra colchon duro que tanto la gusta 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task16_t6_es is -7.83426 over 382 frames.
+user00115_ses115_rep8_task17_t7_es la matematicas tiene muchas aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task17_t7_es is -7.73156 over 334 frames.
+user00115_ses115_rep8_task18_t8_es para llegar debes sube ganar 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task18_t8_es is -7.51355 over 400 frames.
+user00115_ses115_rep8_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task19_t9_es is -7.46474 over 304 frames.
+user00115_ses115_rep8_task20_t10_es moto ganar para yo 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep8_task20_t10_es is -7.41125 over 238 frames.
+user00115_ses115_rep9_task11_t1_es mi casa tienen tres para 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task11_t1_es is -7.39309 over 256 frames.
+user00115_ses115_rep9_task12_t2_es que vive tanto trajo miel 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task12_t2_es is -7.36957 over 286 frames.
+user00115_ses115_rep9_task13_t3_es laura sube tren que para 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task13_t3_es is -7.48082 over 280 frames.
+LOG (apply-cmvn[5.2.126~1-134cf7]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 700 utterances, errors on 0
+user00115_ses115_rep9_task14_t4_es la ayer cuando caben la mesa la oficina 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task14_t4_es is -7.86178 over 364 frames.
+user00115_ses115_rep9_task15_t5_es rosita mi la que pinta vez dono sus cuadros ayer 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task15_t5_es is -7.97293 over 364 frames.
+user00115_ses115_rep9_task16_t6_es triste luisa rey compra que colchon duro que tanto las un 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task16_t6_es is -7.81112 over 610 frames.
+user00115_ses115_rep9_task17_t7_es la matematicas tienen tres aplicaciones 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task17_t7_es is -8.01174 over 280 frames.
+user00115_ses115_rep9_task18_t8_es para llegar de sube las escaleras 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task18_t8_es is -7.5891 over 322 frames.
+user00115_ses115_rep9_task19_t9_es la contaminacion es un problema todos 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task19_t9_es is -7.35257 over 334 frames.
+user00115_ses115_rep9_task20_t10_es muchas tanto yo 
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance user00115_ses115_rep9_task20_t10_es is -7.37861 over 238 frames.
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:main():gmm-latgen-faster.cc:176) Time taken 160.825s: real-time factor assuming 100 frames/sec is 0.0653335
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:main():gmm-latgen-faster.cc:179) Done 700 utterances, failed for 0
+LOG (gmm-latgen-faster[5.2.126~1-134cf7]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.94443 over 246160 frames.
+# Accounting: time=161 threads=1
+# Ended (code 0) at Mon Oct  9 19:45:11 COT 2017, elapsed time 161 seconds

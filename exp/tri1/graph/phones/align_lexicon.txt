@@ -1,0 +1,97 @@
+!SIL !SIL sil_S
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+a a a_S
+al al a_B l_E
+amigo amigo a_B m_I i_I g_I o_E
+aplicaciones aplicaciones a_B p_I l_I i_I k_I a_I s_I i_I o_I n_I e_I s_E
+ayer ayer a_B y_I e_I r_E
+ayudarme ayudarme a_B y_I u_I d_I a_I r_I m_I e_E
+bien bien b_B i_I e_I n_E
+caben caben k_B a_I b_I e_I n_E
+cada cada k_B a_I d_I a_E
+casa casa k_B a_I s_I a_E
+cerca cerca s_B e_I r_I k_I a_E
+colchon colchon k_B o_I l_I ch_I o_I n_E
+compra compra k_B o_I m_I p_I r_I a_E
+contaminacion contaminacion k_B o_I n_I t_I a_I m_I i_I n_I a_I s_I i_I o_I n_E
+cuadros cuadros k_B u_I a_I d_I r_I o_I s_E
+cuando cuando k_B u_I a_I n_I d_I o_E
+cuartos cuartos k_B u_I a_I r_I t_I o_I s_E
+de de d_B e_E
+debes debes d_B e_I b_I e_I s_E
+dificil dificil d_B i_I f_I i_I s_I i_I l_E
+dono dono d_B o_I n_I o_E
+duro duro d_B u_I r_I o_E
+el el e_B l_E
+en en e_B n_E
+es es e_B s_E
+escaleras escaleras e_B s_I k_I a_I l_I e_I r_I a_I s_E
+ese ese e_B s_I e_E
+estoy estoy e_B s_I t_I o_I i_E
+fuerza fuerza f_B u_I e_I r_I s_I a_E
+ganar ganar g_B a_I n_I a_I r_E
+gracias gracias g_B r_I a_I s_I i_I a_I s_E
+gusta gusta g_B u_I s_I t_I a_E
+hablar hablar a_B b_I l_I a_I r_E
+iba iba i_B b_I a_E
+juan juan j_B u_I a_I n_E
+la la l_B a_E
+las las l_B a_I s_E
+laura laura l_B a_I u_I r_I a_E
+le le l_B e_E
+libros libros l_B i_I b_I r_I o_I s_E
+llegar llegar y_B e_I g_I a_I r_E
+los los l_B o_I s_E
+luisa luisa l_B u_I i_I s_I a_E
+mas mas m_B a_I s_E
+matematicas matematicas m_B a_I t_I e_I m_I a_I t_I i_I k_I a_I s_E
+me me m_B e_E
+medalla medalla m_B e_I d_I a_I y_I a_E
+mesa mesa m_B e_I s_I a_E
+mi mi m_B i_E
+miel miel m_B i_I e_I l_E
+morir morir m_B o_I r_I i_I r_E
+moto moto m_B o_I t_I o_E
+mucha mucha m_B u_I ch_I a_E
+muchacho muchacho m_B u_I ch_I a_I ch_I o_E
+muchas muchas m_B u_I ch_I a_I s_E
+muy muy m_B u_I i_E
+niño niño n_B i_I nh_I o_E
+no no n_B o_E
+noticias noticias n_B o_I t_I i_I s_I i_I a_I s_E
+nuevos nuevos n_B u_I e_I b_I o_I s_E
+oficina oficina o_B f_I i_I s_I i_I n_I a_E
+omar omar o_B m_I a_I r_E
+para para p_B a_I r_I a_E
+pasa pasa p_B a_I s_I a_E
+pesas pesas p_B e_I s_I a_I s_E
+pierna pierna p_B i_I e_I r_I n_I a_E
+pinta pinta p_B i_I n_I t_I a_E
+plata plata p_B l_I a_I t_I a_E
+por por p_B o_I r_E
+preocupado preocupado p_B r_I e_I o_I k_I u_I p_I a_I d_I o_E
+problema problema p_B r_I o_I b_I l_I e_I m_I a_E
+que que k_B e_E
+rey rey rr_B e_I i_E
+rompio rompio rr_B o_I m_I p_I i_I o_E
+rosita rosita rr_B o_I s_I i_I t_I a_E
+se se s_B e_E
+sube sube s_B u_I b_I e_E
+subir subir s_B u_I b_I i_I r_E
+sus sus s_B u_I s_E
+tanto tanto t_B a_I n_I t_I o_E
+tiene tiene t_B i_I e_I n_I e_E
+tienen tienen t_B i_I e_I n_I e_I n_E
+todos todos t_B o_I d_I o_I s_E
+trajo trajo t_B r_I a_I j_I o_E
+tren tren t_B r_I e_I n_E
+tres tres t_B r_I e_I s_E
+triste triste t_B r_I i_I s_I t_I e_E
+un un u_B n_E
+una una u_B n_I a_E
+vez vez b_B e_I s_E
+vi vi b_B i_E
+viste viste b_B i_I s_I t_I e_E
+vive vive b_B i_I b_I e_E
+yo yo y_B o_E

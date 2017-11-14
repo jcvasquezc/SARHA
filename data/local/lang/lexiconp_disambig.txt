@@ -1,0 +1,96 @@
+!SIL	1.0	sil_S
+<UNK>	1.0	spn_S
+mi	1.0	m_B i_E
+casa	1.0	k_B a_I s_I a_E
+tiene	1.0	t_B i_I e_I n_I e_E
+tres	1.0	t_B r_I e_I s_E
+cuartos	1.0	k_B u_I a_I r_I t_I o_I s_E
+omar	1.0	o_B m_I a_I r_E
+que	1.0	k_B e_E
+vive	1.0	b_B i_I b_I e_E
+cerca	1.0	s_B e_I r_I k_I a_E
+trajo	1.0	t_B r_I a_I j_I o_E
+miel	1.0	m_B i_I e_I l_E
+laura	1.0	l_B a_I u_I r_I a_E
+sube	1.0	s_B u_I b_I e_E
+al	1.0	a_B l_E
+tren	1.0	t_B r_I e_I n_E
+pasa	1.0	p_B a_I s_I a_E
+los	1.0	l_B o_I s_E
+libros	1.0	l_B i_I b_I r_I o_I s_E
+nuevos	1.0	n_B u_I e_I b_I o_I s_E
+no	1.0	n_B o_E
+caben	1.0	k_B a_I b_I e_I n_E
+en	1.0	e_B n_E
+la	1.0	l_B a_E
+mesa	1.0	m_B e_I s_I a_E
+de	1.0	d_B e_E
+oficina	1.0	o_B f_I i_I s_I i_I n_I a_E
+rosita	1.0	rr_B o_I s_I i_I t_I a_E
+niño	1.0	n_B i_I nh_I o_E
+pinta	1.0	p_B i_I n_I t_I a_E
+bien	1.0	b_B i_I e_I n_E
+dono	1.0	d_B o_I n_I o_E
+sus	1.0	s_B u_I s_E
+cuadros	1.0	k_B u_I a_I d_I r_I o_I s_E
+ayer	1.0	a_B y_I e_I r_E
+luisa	1.0	l_B u_I i_I s_I a_E
+rey	1.0	rr_B e_I i_E
+compra	1.0	k_B o_I m_I p_I r_I a_E
+el	1.0	e_B l_E
+colchon	1.0	k_B o_I l_I ch_I o_I n_E
+duro	1.0	d_B u_I r_I o_E
+tanto	1.0	t_B a_I n_I t_I o_E
+le	1.0	l_B e_E
+gusta	1.0	g_B u_I s_I t_I a_E
+las	1.0	l_B a_I s_E
+matematicas	1.0	m_B a_I t_I e_I m_I a_I t_I i_I k_I a_I s_E
+tienen	1.0	t_B i_I e_I n_I e_I n_E
+muchas	1.0	m_B u_I ch_I a_I s_E
+aplicaciones	1.0	a_B p_I l_I i_I k_I a_I s_I i_I o_I n_I e_I s_E
+para	1.0	p_B a_I r_I a_E
+llegar	1.0	y_B e_I g_I a_I r_E
+debes	1.0	d_B e_I b_I e_I s_E
+subir	1.0	s_B u_I b_I i_I r_E
+escaleras	1.0	e_B s_I k_I a_I l_I e_I r_I a_I s_E
+contaminacion	1.0	k_B o_I n_I t_I a_I m_I i_I n_I a_I s_I i_I o_I n_E
+es	1.0	e_B s_E
+un	1.0	u_B n_E
+problema	1.0	p_B r_I o_I b_I l_I e_I m_I a_E
+todos	1.0	t_B o_I d_I o_I s_E
+gracias	1.0	g_B r_I a_I s_I i_I a_I s_E
+por	1.0	p_B o_I r_E
+ayudarme	1.0	a_B y_I u_I d_I a_I r_I m_I e_E
+viste	1.0	b_B i_I s_I t_I e_E
+noticias	1.0	n_B o_I t_I i_I s_I i_I a_I s_E
+yo	1.0	y_B o_E
+vi	1.0	b_B i_E
+ganar	1.0	g_B a_I n_I a_I r_E
+medalla	1.0	m_B e_I d_I a_I y_I a_E
+plata	1.0	p_B l_I a_I t_I a_E
+pesas	1.0	p_B e_I s_I a_I s_E
+ese	1.0	e_B s_I e_E
+muchacho	1.0	m_B u_I ch_I a_I ch_I o_E
+mucha	1.0	m_B u_I ch_I a_E
+fuerza	1.0	f_B u_I e_I r_I s_I a_E
+juan	1.0	j_B u_I a_I n_E
+se	1.0	s_B e_E
+rompio	1.0	rr_B o_I m_I p_I i_I o_E
+una	1.0	u_B n_I a_E
+pierna	1.0	p_B i_I e_I r_I n_I a_E
+cuando	1.0	k_B u_I a_I n_I d_I o_E
+iba	1.0	i_B b_I a_E
+moto	1.0	m_B o_I t_I o_E
+estoy	1.0	e_B s_I t_I o_I i_E
+muy	1.0	m_B u_I i_E
+triste	1.0	t_B r_I i_I s_I t_I e_E
+morir	1.0	m_B o_I r_I i_I r_E
+a	1.0	a_S
+amigo	1.0	a_B m_I i_I g_I o_E
+preocupado	1.0	p_B r_I e_I o_I k_I u_I p_I a_I d_I o_E
+cada	1.0	k_B a_I d_I a_E
+vez	1.0	b_B e_I s_E
+me	1.0	m_B e_E
+mas	1.0	m_B a_I s_E
+dificil	1.0	d_B i_I f_I i_I s_I i_I l_E
+hablar	1.0	a_B b_I l_I a_I r_E

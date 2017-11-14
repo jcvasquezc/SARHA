@@ -1,0 +1,68 @@
+# gmm-acc-stats-ali exp/mono/1.mdl "ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- | add-deltas ark:- ark:- |" "ark:gunzip -c exp/mono/ali.2.gz|" exp/mono/1.2.acc 
+# Started at Mon Oct  9 19:24:13 COT 2017
+#
+gmm-acc-stats-ali exp/mono/1.mdl 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- | add-deltas ark:- ark:- |' 'ark:gunzip -c exp/mono/ali.2.gz|' exp/mono/1.2.acc 
+apply-cmvn --utt2spk=ark:data/train/split3/2/utt2spk scp:data/train/split3/2/cmvn.scp scp:data/train/split3/2/feats.scp ark:- 
+add-deltas ark:- ark:- 
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 50 utterances; for utterance user00036_ses36_rep4_task20_t10_es avg. like is -107.996 over 214 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 100 utterances; for utterance user00036_ses36_rep9_task20_t10_es avg. like is -99.9728 over 226 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 150 utterances; for utterance user00037_ses37_rep4_task20_t10_es avg. like is -107.408 over 202 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 200 utterances; for utterance user00037_ses37_rep9_task20_t10_es avg. like is -101.4 over 214 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 250 utterances; for utterance user00038_ses38_rep4_task20_t10_es avg. like is -106.496 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 300 utterances; for utterance user00038_ses38_rep9_task20_t10_es avg. like is -99.9893 over 208 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 350 utterances; for utterance user00039_ses39_rep4_task20_t10_es avg. like is -108.309 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 400 utterances; for utterance user00039_ses39_rep9_task20_t10_es avg. like is -102.774 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 450 utterances; for utterance user00040_ses40_rep4_task20_t10_es avg. like is -103.675 over 172 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 500 utterances; for utterance user00040_ses40_rep9_task20_t10_es avg. like is -98.3676 over 202 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 550 utterances; for utterance user00042_ses42_rep4_task20_t10_es avg. like is -109.023 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 600 utterances; for utterance user00042_ses42_rep9_task20_t10_es avg. like is -104.883 over 220 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 650 utterances; for utterance user00043_ses43_rep4_task20_t10_es avg. like is -104.322 over 316 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 700 utterances; for utterance user00043_ses43_rep9_task20_t10_es avg. like is -98.0171 over 262 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 750 utterances; for utterance user00044_ses44_rep4_task20_t10_es avg. like is -108.126 over 280 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 800 utterances; for utterance user00044_ses44_rep9_task20_t10_es avg. like is -101.049 over 250 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 850 utterances; for utterance user00045_ses45_rep4_task20_t10_es avg. like is -107.463 over 250 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 900 utterances; for utterance user00045_ses45_rep9_task20_t10_es avg. like is -101.672 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 950 utterances; for utterance user00046_ses46_rep4_task20_t10_es avg. like is -102.86 over 226 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1000 utterances; for utterance user00046_ses46_rep9_task20_t10_es avg. like is -99.0949 over 232 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1050 utterances; for utterance user00047_ses47_rep4_task20_t10_es avg. like is -108.276 over 274 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1100 utterances; for utterance user00047_ses47_rep9_task20_t10_es avg. like is -105.561 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1150 utterances; for utterance user00048_ses48_rep4_task20_t10_es avg. like is -106.516 over 196 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1200 utterances; for utterance user00048_ses48_rep9_task20_t10_es avg. like is -104.961 over 178 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1250 utterances; for utterance user00049_ses49_rep4_task20_t10_es avg. like is -107.863 over 250 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1300 utterances; for utterance user00049_ses49_rep9_task20_t10_es avg. like is -100.314 over 232 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1350 utterances; for utterance user00050_ses50_rep4_task20_t10_es avg. like is -105.378 over 232 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1400 utterances; for utterance user00050_ses50_rep9_task20_t10_es avg. like is -101.172 over 190 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1450 utterances; for utterance user00051_ses51_rep4_task20_t10_es avg. like is -105.515 over 196 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1500 utterances; for utterance user00051_ses51_rep9_task20_t10_es avg. like is -105.012 over 184 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1550 utterances; for utterance user00052_ses52_rep4_task20_t10_es avg. like is -109.234 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1600 utterances; for utterance user00052_ses52_rep9_task20_t10_es avg. like is -103.481 over 244 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1650 utterances; for utterance user00053_ses53_rep4_task20_t10_es avg. like is -107.032 over 208 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1700 utterances; for utterance user00053_ses53_rep9_task20_t10_es avg. like is -102.623 over 190 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1750 utterances; for utterance user00054_ses54_rep4_task20_t10_es avg. like is -107.697 over 358 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1800 utterances; for utterance user00054_ses54_rep9_task20_t10_es avg. like is -97.9035 over 280 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1850 utterances; for utterance user00055_ses55_rep4_task20_t10_es avg. like is -109.725 over 232 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1900 utterances; for utterance user00055_ses55_rep9_task20_t10_es avg. like is -102.019 over 214 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 1950 utterances; for utterance user00056_ses56_rep4_task20_t10_es avg. like is -101.346 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2000 utterances; for utterance user00056_ses56_rep9_task20_t10_es avg. like is -97.3519 over 214 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2050 utterances; for utterance user00057_ses57_rep4_task20_t10_es avg. like is -107.317 over 256 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2100 utterances; for utterance user00057_ses57_rep9_task20_t10_es avg. like is -100.211 over 262 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2150 utterances; for utterance user00058_ses58_rep4_task20_t10_es avg. like is -104.558 over 202 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2200 utterances; for utterance user00058_ses58_rep9_task20_t10_es avg. like is -100.551 over 184 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2250 utterances; for utterance user00059_ses59_rep4_task20_t10_es avg. like is -108.551 over 238 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2300 utterances; for utterance user00059_ses59_rep9_task20_t10_es avg. like is -98.8337 over 220 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2350 utterances; for utterance user00060_ses60_rep4_task20_t10_es avg. like is -107.941 over 232 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2400 utterances; for utterance user00060_ses60_rep9_task20_t10_es avg. like is -100.382 over 196 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2450 utterances; for utterance user00061_ses61_rep4_task20_t10_es avg. like is -103.968 over 220 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2500 utterances; for utterance user00061_ses61_rep9_task20_t10_es avg. like is -104.215 over 184 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2550 utterances; for utterance user00062_ses62_rep4_task20_t10_es avg. like is -105.579 over 292 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2600 utterances; for utterance user00062_ses62_rep9_task20_t10_es avg. like is -98.4883 over 316 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2650 utterances; for utterance user00063_ses63_rep4_task20_t10_es avg. like is -107.02 over 256 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2700 utterances; for utterance user00063_ses63_rep9_task20_t10_es avg. like is -101.583 over 226 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2750 utterances; for utterance user00064_ses64_rep4_task20_t10_es avg. like is -103.194 over 304 frames.
+LOG (apply-cmvn[5.2.126~1-134cf7]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 2800 utterances, errors on 0
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:105) Processed 2800 utterances; for utterance user00064_ses64_rep9_task20_t10_es avg. like is -94.8518 over 322 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:112) Done 2800 files, 0 with errors.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:115) Overall avg like per frame (Gaussian only) = -106.243 over 874048 frames.
+LOG (gmm-acc-stats-ali[5.2.126~1-134cf7]:main():gmm-acc-stats-ali.cc:123) Written accs.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Mon Oct  9 19:24:15 COT 2017, elapsed time 2 seconds

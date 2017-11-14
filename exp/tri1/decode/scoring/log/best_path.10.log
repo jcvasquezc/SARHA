@@ -1,0 +1,10 @@
+# lattice-best-path --lm-scale=10 --word-symbol-table=exp/tri1/graph/words.txt "ark:gunzip -c exp/tri1/decode/lat.*.gz|" ark,t:exp/tri1/decode/scoring/10.tra 
+# Started at Fri Nov 10 16:47:23 COT 2017
+#
+lattice-best-path --lm-scale=10 --word-symbol-table=exp/tri1/graph/words.txt 'ark:gunzip -c exp/tri1/decode/lat.*.gz|' ark,t:exp/tri1/decode/scoring/10.tra 
+LOG (lattice-best-path[5.2]:main():lattice-best-path.cc:99) For utterance h_freetest, best cost 603.723 + 32985.1 = 33588.9 over 386 frames.
+h_freetest mi casa vi cerca al tren el 
+LOG (lattice-best-path[5.2]:main():lattice-best-path.cc:124) Overall cost per frame is 87.0178 = 1.56405 [graph] + 85.4537 [acoustic] over 386 frames.
+LOG (lattice-best-path[5.2]:main():lattice-best-path.cc:128) Done 1 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Nov 10 16:47:23 COT 2017, elapsed time 0 seconds

@@ -1,0 +1,5 @@
+# cat exp/mono/decode/scoring/16.tra | utils/int2sym.pl -f 2- exp/mono/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp/mono/decode/scoring/test_filt.txt ark,p:- >& exp/mono/decode/wer_16 
+# Started at Mon Oct  9 19:45:17 COT 2017
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Oct  9 19:45:18 COT 2017, elapsed time 1 seconds

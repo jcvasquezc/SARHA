@@ -1,0 +1,9 @@
+a_B b_B ch_B d_B e_B f_B g_B i_B j_B k_B l_B y_B m_B n_B nh_B o_B p_B r_B rr_B s_B t_B u_B 
+a_E b_E ch_E d_E e_E f_E g_E i_E j_E k_E l_E y_E m_E n_E nh_E o_E p_E r_E rr_E s_E t_E u_E 
+a_I b_I ch_I d_I e_I f_I g_I i_I j_I k_I l_I y_I m_I n_I nh_I o_I p_I r_I rr_I s_I t_I u_I 
+a_S b_S ch_S d_S e_S f_S g_S i_S j_S k_S l_S y_S m_S n_S nh_S o_S p_S r_S rr_S s_S t_S u_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 

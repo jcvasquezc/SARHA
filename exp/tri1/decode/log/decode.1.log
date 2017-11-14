@@ -1,0 +1,14 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Fri Nov 10 16:47:22 COT 2017
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+LOG (apply-cmvn[5.2]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 1 utterances, errors on 0
+h_freetest mi casa vi cerca al tren el 
+LOG (gmm-latgen-faster[5.2]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance h_freetest is -7.27752 over 386 frames.
+LOG (gmm-latgen-faster[5.2]:main():gmm-latgen-faster.cc:176) Time taken 0.462358s: real-time factor assuming 100 frames/sec is 0.119782
+LOG (gmm-latgen-faster[5.2]:main():gmm-latgen-faster.cc:179) Done 1 utterances, failed for 0
+LOG (gmm-latgen-faster[5.2]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.27752 over 386 frames.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Nov 10 16:47:23 COT 2017, elapsed time 1 seconds
